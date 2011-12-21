@@ -212,7 +212,7 @@ function wp_cookie_constants( ) {
 	 * @since 2.6.0
 	 */
 	if ( !defined('ADMIN_COOKIE_PATH') )
-		define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
+		define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'administracao' );
 
 	/**
 	 * @since 2.6.0

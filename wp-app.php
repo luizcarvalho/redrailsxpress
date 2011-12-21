@@ -19,7 +19,7 @@ require_once('./wp-load.php');
 require_once(ABSPATH . WPINC . '/atomlib.php');
 
 /** Admin Image API for metadata updating */
-require_once(ABSPATH . '/wp-admin/includes/image.php');
+require_once(ABSPATH . '/administracao/includes/image.php');
 
 $_SERVER['PATH_INFO'] = preg_replace( '/.*\/wp-app\.php/', '', $_SERVER['REQUEST_URI'] );
 

@@ -56,7 +56,7 @@ function ms_cookie_constants(  ) {
 		if( !is_subdomain_install() ) {
 			define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH );
 		} else {
-			define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'wp-admin' );
+			define( 'ADMIN_COOKIE_PATH', SITECOOKIEPATH . 'administracao' );
 		}
 	}
 

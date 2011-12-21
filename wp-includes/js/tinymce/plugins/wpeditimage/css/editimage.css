@@ -312,19 +312,19 @@ form {
 	margin: 0 1em 0 0;
 }
 .image-align-none-label {
-	background: url(../../../../../../wp-admin/images/align-none.png) no-repeat center left;
+	background: url(../../../../../../administracao/images/align-none.png) no-repeat center left;
 }
 
 .image-align-left-label {
-	background: url(../../../../../../wp-admin/images/align-left.png) no-repeat center left;
+	background: url(../../../../../../administracao/images/align-left.png) no-repeat center left;
 }
 
 .image-align-center-label {
-	background: url(../../../../../../wp-admin/images/align-center.png) no-repeat center left;
+	background: url(../../../../../../administracao/images/align-center.png) no-repeat center left;
 }
 
 .image-align-right-label {
-	background: url(../../../../../../wp-admin/images/align-right.png) no-repeat center left;
+	background: url(../../../../../../administracao/images/align-right.png) no-repeat center left;
 }
 
 div#media-upload-header {

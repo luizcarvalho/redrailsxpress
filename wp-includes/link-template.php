@@ -1966,7 +1966,7 @@ function admin_url( $path = '', $scheme = 'admin' ) {
  * @return string Admin url link with optional path appended.
 */
 function get_admin_url( $blog_id = null, $path = '', $scheme = 'admin' ) {
-	$url = get_site_url($blog_id, 'wp-admin/', $scheme);
+	$url = get_site_url($blog_id, 'administracao/', $scheme);
 
 	if ( !empty($path) && is_string($path) && strpos($path, '..') === false )
 		$url .= ltrim($path, '/');
@@ -2138,7 +2138,7 @@ function network_admin_url( $path = '', $scheme = 'admin' ) {
 	if ( ! is_multisite() )
 		return admin_url( $path, $scheme );
 
-	$url = network_site_url('wp-admin/network/', $scheme);
+	$url = network_site_url('administracao/network/', $scheme);
 
 	if ( !empty($path) && is_string($path) && strpos($path, '..') === false )
 		$url .= ltrim($path, '/');
@@ -2157,7 +2157,7 @@ function network_admin_url( $path = '', $scheme = 'admin' ) {
  * @return string Admin url link with optional path appended.
 */
 function user_admin_url( $path = '', $scheme = 'admin' ) {
-	$url = network_site_url('wp-admin/user/', $scheme);
+	$url = network_site_url('administracao/user/', $scheme);
 
 	if ( !empty($path) && is_string($path) && strpos($path, '..') === false )
 		$url .= ltrim($path, '/');

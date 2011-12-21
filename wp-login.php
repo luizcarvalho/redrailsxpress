@@ -61,7 +61,7 @@ function login_header($title = 'Log In', $message = '', $wp_error = '') {
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<title><?php bloginfo('name'); ?> &rsaquo; <?php echo $title; ?></title>
 <?php
-	wp_admin_css( 'wp-admin', true );
+	wp_admin_css( 'administracao', true );
 	wp_admin_css( 'colors-fresh', true );
 
 	if ( $is_iphone ) { ?>
@@ -551,7 +551,7 @@ default:
 	if ( isset( $_REQUEST['redirect_to'] ) ) {
 		$redirect_to = $_REQUEST['redirect_to'];
 		// Redirect to https if user wants ssl
-		if ( $secure_cookie && false !== strpos($redirect_to, 'wp-admin') )
+		if ( $secure_cookie && false !== strpos($redirect_to, 'administracao') )
 			$redirect_to = preg_replace('|^http://|', 'https://', $redirect_to);
 	} else {
 		$redirect_to = admin_url();
@@ -580,7 +580,7 @@ default:
 <?php		exit;
 		}
 
-		if ( ( empty( $redirect_to ) || $redirect_to == 'wp-admin/' || $redirect_to == admin_url() ) ) {
+		if ( ( empty( $redirect_to ) || $redirect_to == 'administracao/' || $redirect_to == admin_url() ) ) {
 			// If the user doesn't belong to a blog, send them to user admin. If the user can't edit posts, send them to their profile.
 			if ( is_multisite() && !get_active_blog_for_user($user->ID) && !is_super_admin( $user->ID ) )
 				$redirect_to = user_admin_url();

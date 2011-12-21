@@ -36,7 +36,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	min-width: 600px; /* match the min-width of the body in wp-admin.css */
+	min-width: 600px; /* match the min-width of the body in administracao.css */
 	z-index: 99999;
 
 	background-color: #464646; /* Fallback */
@@ -315,66 +315,66 @@
 /**
  * My Account
  */
-#wp-admin-bar-my-account > ul {
+#administracao-bar-my-account > ul {
 	min-width: 198px;
 }
 
-#wp-admin-bar-my-account.with-avatar > ul {
+#administracao-bar-my-account.with-avatar > ul {
 	min-width: 270px;
 }
 
-#wpadminbar #wp-admin-bar-user-actions > li {
+#wpadminbar #administracao-bar-user-actions > li {
 	margin-left: 16px;
 	margin-right: 16px;
 }
 
-#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions > li {
+#wpadminbar #administracao-bar-my-account.with-avatar #administracao-bar-user-actions > li {
 	margin-left: 88px;
 }
 
-#wp-admin-bar-user-actions > li > .ab-item {
+#administracao-bar-user-actions > li > .ab-item {
 	padding-left: 8px;
 }
 
-#wpadminbar #wp-admin-bar-user-info {
+#wpadminbar #administracao-bar-user-info {
 	margin-top: 6px;
 	margin-bottom: 15px;
 	height: auto;
 	background: none;
 }
 
-#wp-admin-bar-user-info .avatar {
+#administracao-bar-user-info .avatar {
 	position: absolute;
 	left: -72px;
 	top: 4px;
 }
 
-#wpadminbar #wp-admin-bar-user-info a {
+#wpadminbar #administracao-bar-user-info a {
 	background: none;
 	height: auto;
 }
 
-#wpadminbar #wp-admin-bar-user-info span {
+#wpadminbar #administracao-bar-user-info span {
 	background: none;
 	padding: 0;
 	height: 18px;
 }
 
-#wpadminbar #wp-admin-bar-user-info .display-name,
-#wpadminbar #wp-admin-bar-user-info .username {
+#wpadminbar #administracao-bar-user-info .display-name,
+#wpadminbar #administracao-bar-user-info .username {
 	text-shadow: none;
 	display: block;
 }
-#wpadminbar #wp-admin-bar-user-info .display-name {
+#wpadminbar #administracao-bar-user-info .display-name {
 	color: #333;
 }
 
-#wpadminbar #wp-admin-bar-user-info .username {
+#wpadminbar #administracao-bar-user-info .username {
 	color: #999;
 	font-size: 11px;
 }
 
-#wpadminbar .quicklinks li#wp-admin-bar-my-account.with-avatar > a img {
+#wpadminbar .quicklinks li#administracao-bar-my-account.with-avatar > a img {
 	width: 16px;
 	height: 16px;
 	border: 1px solid #999;
@@ -399,11 +399,11 @@
 /**
  * Search
  */
-#wpadminbar #wp-admin-bar-search .ab-item {
+#wpadminbar #administracao-bar-search .ab-item {
 	padding: 0;
 }
 
-#wpadminbar #wp-admin-bar-search .ab-item {
+#wpadminbar #administracao-bar-search .ab-item {
 	/* default background */
 	background: transparent;
 }
@@ -487,7 +487,7 @@
 /**
  * Site Menu
  */
-#wpadminbar #wp-admin-bar-appearance {
+#wpadminbar #administracao-bar-appearance {
 	border-top: none;
 	margin-top: -12px;
 }
@@ -495,7 +495,7 @@
 /**
  * Site Menu
  */
-#wpadminbar #wp-admin-bar-appearance {
+#wpadminbar #administracao-bar-appearance {
 	border-top: none;
 	margin-top: -12px;
 }
@@ -518,7 +518,7 @@
 /**
  * WP Logo icon
  */
-#wp-admin-bar-wp-logo > .ab-item .ab-icon {
+#administracao-bar-wp-logo > .ab-item .ab-icon {
 	width: 20px;
 	height: 20px;
 	margin-top: 4px;
@@ -527,15 +527,15 @@
 	background-repeat: no-repeat;
 }
 
-#wpadminbar.nojs #wp-admin-bar-wp-logo:hover > .ab-item .ab-icon,
-#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item .ab-icon {
+#wpadminbar.nojs #administracao-bar-wp-logo:hover > .ab-item .ab-icon,
+#wpadminbar #administracao-bar-wp-logo.hover > .ab-item .ab-icon {
 	background-position: 0 -104px;
 }
 
 /**
  * Updates icon
  */
-#wp-admin-bar-updates > .ab-item .ab-icon {
+#administracao-bar-updates > .ab-item .ab-icon {
 	background-image: url(../images/admin-bar-sprite.png?d=20111130);
 	background-position: -2px -159px;
 	background-repeat: no-repeat;
@@ -544,7 +544,7 @@
 /**
  * Comments icon
  */
-#wp-admin-bar-comments > .ab-item .ab-icon {
+#administracao-bar-comments > .ab-item .ab-icon {
 	background-image: url(../images/admin-bar-sprite.png?d=20111130);
 	background-position: -1px -134px;
 	background-repeat: no-repeat;
@@ -557,7 +557,7 @@
 /**
  * Add New icon
  */
-#wpadminbar #wp-admin-bar-new-content > .ab-item .ab-icon {
+#wpadminbar #administracao-bar-new-content > .ab-item .ab-icon {
 	background-image: url(../images/admin-bar-sprite.png?d=20111130);
 	background-position: -2px -182px;
 	background-repeat: no-repeat;
@@ -566,8 +566,8 @@
 /**
  * Add New icon
  */
-#wpadminbar.nojs #wp-admin-bar-new-content:hover > .ab-item .ab-icon,
-#wpadminbar #wp-admin-bar-new-content.hover > .ab-item .ab-icon {
+#wpadminbar.nojs #administracao-bar-new-content:hover > .ab-item .ab-icon,
+#wpadminbar #administracao-bar-new-content.hover > .ab-item .ab-icon {
 	background-position: -2px -203px;
 }
 

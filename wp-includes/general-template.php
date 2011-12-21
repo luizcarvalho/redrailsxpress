@@ -2047,9 +2047,9 @@ function register_admin_color_schemes() {
  *
  * @since 2.3.0
  *
- * @param string $file file relative to wp-admin/ without its ".css" extension.
+ * @param string $file file relative to administracao/ without its ".css" extension.
  */
-function wp_admin_css_uri( $file = 'wp-admin' ) {
+function wp_admin_css_uri( $file = 'administracao' ) {
 	if ( defined('WP_INSTALLING') ) {
 		$_file = "./$file.css";
 	} else {
@@ -2071,7 +2071,7 @@ function wp_admin_css_uri( $file = 'wp-admin' ) {
  *
  * For backward compatibility with WordPress 2.3 calling method: If the $file
  * (first) parameter does not correspond to a registered CSS file, we assume
- * $file is a file relative to wp-admin/ without its ".css" extension. A
+ * $file is a file relative to administracao/ without its ".css" extension. A
  * stylesheet link to that generated URL is printed.
  *
  * @package WordPress
@@ -2079,10 +2079,10 @@ function wp_admin_css_uri( $file = 'wp-admin' ) {
  * @uses $wp_styles WordPress Styles Object
  *
  * @param string $file Optional. Style handle name or file name (without ".css" extension) relative
- * 	 to wp-admin/. Defaults to 'wp-admin'.
+ * 	 to administracao/. Defaults to 'administracao'.
  * @param bool $force_echo Optional.  Force the stylesheet link to be printed rather than enqueued.
  */
-function wp_admin_css( $file = 'wp-admin', $force_echo = false ) {
+function wp_admin_css( $file = 'administracao', $force_echo = false ) {
 	global $wp_styles;
 	if ( !is_a($wp_styles, 'WP_Styles') )
 		$wp_styles = new WP_Styles();

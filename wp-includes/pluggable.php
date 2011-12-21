@@ -736,7 +736,7 @@ function auth_redirect() {
 	$secure = apply_filters('secure_auth_redirect', $secure);
 
 	// If https is required and request is http, redirect
-	if ( $secure && !is_ssl() && false !== strpos($_SERVER['REQUEST_URI'], 'wp-admin') ) {
+	if ( $secure && !is_ssl() && false !== strpos($_SERVER['REQUEST_URI'], 'administracao') ) {
 		if ( 0 === strpos($_SERVER['REQUEST_URI'], 'http') ) {
 			wp_redirect(preg_replace('|^http://|', 'https://', $_SERVER['REQUEST_URI']));
 			exit();
@@ -755,7 +755,7 @@ function auth_redirect() {
 		do_action('auth_redirect', $user_id);
 
 		// If the user wants ssl but the session is not ssl, redirect.
-		if ( !$secure && get_user_option('use_ssl', $user_id) && false !== strpos($_SERVER['REQUEST_URI'], 'wp-admin') ) {
+		if ( !$secure && get_user_option('use_ssl', $user_id) && false !== strpos($_SERVER['REQUEST_URI'], 'administracao') ) {
 			if ( 0 === strpos($_SERVER['REQUEST_URI'], 'http') ) {
 				wp_redirect(preg_replace('|^http://|', 'https://', $_SERVER['REQUEST_URI']));
 				exit();
@@ -894,7 +894,7 @@ if ( !function_exists('wp_safe_redirect') ) :
  * path. A plugin can therefore set or remove allowed host(s) to or from the
  * list.
  *
- * If the host is not allowed, then the redirect is to wp-admin on the siteurl
+ * If the host is not allowed, then the redirect is to administracao on the siteurl
  * instead. This prevents malicious redirects which redirect to another host,
  * but only used in a few places.
  *

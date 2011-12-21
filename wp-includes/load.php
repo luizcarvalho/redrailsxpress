@@ -319,7 +319,7 @@ function wp_set_lang_dir() {
  * Load the correct database class file.
  *
  * This function is used to load the database class file either at runtime or by
- * wp-admin/setup-config.php. We must globalize $wpdb to ensure that it is
+ * administracao/setup-config.php. We must globalize $wpdb to ensure that it is
  * defined globally by the inline code in wp-db.php.
  *
  * @since 2.5.0
@@ -428,7 +428,7 @@ function wp_not_installed() {
 			wp_die( __( 'The site you have requested is not installed properly. Please contact the system administrator.' ) );
 	} elseif ( ! is_blog_installed() && false === strpos( $_SERVER['PHP_SELF'], 'install.php' ) && !defined( 'WP_INSTALLING' ) ) {
 
-		$link = wp_guess_url() . '/wp-admin/install.php';
+		$link = wp_guess_url() . '/administracao/install.php';
 
 		require( ABSPATH . WPINC . '/kses.php' );
 		require( ABSPATH . WPINC . '/pluggable.php' );
@@ -589,7 +589,7 @@ function is_admin() {
 }
 
 /**
- * Whether the current request is for a blog admin screen /wp-admin/
+ * Whether the current request is for a blog admin screen /administracao/
  *
  * Does not inform on whether the user is a blog admin! Use capability checks to
  * tell if the user should be accessing a section or not.
@@ -605,7 +605,7 @@ function is_blog_admin() {
 }
 
 /**
- * Whether the current request is for a network admin screen /wp-admin/network/
+ * Whether the current request is for a network admin screen /administracao/network/
  *
  * Does not inform on whether the user is a network admin! Use capability checks to
  * tell if the user should be accessing a section or not.
@@ -621,7 +621,7 @@ function is_network_admin() {
 }
 
 /**
- * Whether the current request is for a user admin screen /wp-admin/user/
+ * Whether the current request is for a user admin screen /administracao/user/
  *
  * Does not inform on whether the user is an admin! Use capability checks to
  * tell if the user should be accessing a section or not.

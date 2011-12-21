@@ -1221,7 +1221,7 @@ function preview_theme_ob_filter_callback( $matches ) {
 	if ( strpos($matches[4], 'onclick') !== false )
 		$matches[4] = preg_replace('#onclick=([\'"]).*?(?<!\\\)\\1#i', '', $matches[4]); //Strip out any onclicks from rest of <a>. (?<!\\\) means to ignore the '" if its escaped by \  to prevent breaking mid-attribute.
 	if (
-		( false !== strpos($matches[3], '/wp-admin/') )
+		( false !== strpos($matches[3], '/administracao/') )
 	||
 		( false !== strpos( $matches[3], '://' ) && 0 !== strpos( $matches[3], home_url() ) )
 	||
@@ -1588,7 +1588,7 @@ function add_custom_image_header( $header_callback, $admin_header_callback, $adm
 
 	global $custom_image_header;
 
-	require_once( ABSPATH . 'wp-admin/custom-header.php' );
+	require_once( ABSPATH . 'administracao/custom-header.php' );
 	$custom_image_header = new Custom_Image_Header( $admin_header_callback, $admin_image_div_callback );
 	add_action( 'admin_menu', array( &$custom_image_header, 'init' ) );
 }
@@ -1728,7 +1728,7 @@ function add_custom_background( $header_callback = '', $admin_header_callback = 
 
 	if ( ! is_admin() )
 		return;
-	require_once( ABSPATH . 'wp-admin/custom-background.php' );
+	require_once( ABSPATH . 'administracao/custom-background.php' );
 	$GLOBALS['custom_background'] = new Custom_Background( $admin_header_callback, $admin_image_div_callback );
 	add_action( 'admin_menu', array( &$GLOBALS['custom_background'], 'init' ) );
 }

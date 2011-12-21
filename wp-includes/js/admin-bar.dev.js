@@ -22,10 +22,10 @@ if ( typeof(jQuery) != 'undefined' ) {
 			interval: 100
 		});
 
-		$('#wp-admin-bar-get-shortlink').click(function(e){
+		$('#administracao-bar-get-shortlink').click(function(e){
 			e.preventDefault();
 			$(this).addClass('selected').children('.shortlink-input').blur(function(){
-				$(this).parents('#wp-admin-bar-get-shortlink').removeClass('selected');
+				$(this).parents('#administracao-bar-get-shortlink').removeClass('selected');
 			}).focus().select();
 		});
 
@@ -153,7 +153,7 @@ if ( typeof(jQuery) != 'undefined' ) {
 				if ( ! t || t == d || t == aB )
 					return;
 				// Check if we've found the shortlink node.
-				if ( t.id && t.id == 'wp-admin-bar-get-shortlink' )
+				if ( t.id && t.id == 'administracao-bar-get-shortlink' )
 					break;
 				t = t.parentNode;
 			}

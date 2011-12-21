@@ -1726,8 +1726,8 @@ class WP_Rewrite {
 					<action type="Rewrite" url="wp-includes/ms-files.php?file={R:2}" appendQueryString="false" />
 				</rule>
 				<rule name="wordpress - Rule 3" stopProcessing="true">
-					<match url="^([_0-9a-zA-Z-]+/)?wp-admin$" ignoreCase="false" />
-					<action type="Redirect" url="{R:1}wp-admin/" redirectType="Permanent" />
+					<match url="^([_0-9a-zA-Z-]+/)?administracao$" ignoreCase="false" />
+					<action type="Redirect" url="{R:1}administracao/" redirectType="Permanent" />
 				</rule>
 				<rule name="wordpress - Rule 4" stopProcessing="true">
 					<match url="^" ignoreCase="false" />

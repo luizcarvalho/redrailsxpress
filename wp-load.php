@@ -38,10 +38,10 @@ if ( file_exists( ABSPATH . 'wp-config.php') ) {
 	// A config file doesn't exist
 
 	// Set a path for the link to the installer
-	if ( strpos($_SERVER['PHP_SELF'], 'wp-admin') !== false )
+	if ( strpos($_SERVER['PHP_SELF'], 'administracao') !== false )
 		$path = '';
 	else
-		$path = 'wp-admin/';
+		$path = 'administracao/';
 
 	require_once( ABSPATH . '/wp-includes/load.php' );
 	require_once( ABSPATH . '/wp-includes/version.php' );

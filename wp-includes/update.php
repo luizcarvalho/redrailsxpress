@@ -133,7 +133,7 @@ function wp_update_plugins() {
 
 	// If running blog-side, bail unless we've not checked in the last 12 hours
 	if ( !function_exists( 'get_plugins' ) )
-		require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+		require_once( ABSPATH . 'administracao/includes/plugin.php' );
 
 	$plugins = get_plugins();
 	$active  = get_option( 'active_plugins', array() );
@@ -351,7 +351,7 @@ function _maybe_update_core() {
  * Check the last time plugins were run before checking plugin versions.
  *
  * This might have been backported to WordPress 2.6.1 for performance reasons.
- * This is used for the wp-admin to check only so often instead of every page
+ * This is used for the administracao to check only so often instead of every page
  * load.
  *
  * @since 2.7.0

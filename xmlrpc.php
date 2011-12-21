@@ -50,7 +50,7 @@ header('Content-Type: text/xml; charset=' . get_option('blog_charset'), true);
 exit;
 }
 
-include_once(ABSPATH . 'wp-admin/includes/admin.php');
+include_once(ABSPATH . 'administracao/includes/admin.php');
 include_once(ABSPATH . WPINC . '/class-IXR.php');
 include_once(ABSPATH . WPINC . '/class-wp-xmlrpc-server.php');
 

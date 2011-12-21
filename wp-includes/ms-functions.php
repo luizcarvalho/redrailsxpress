@@ -373,8 +373,8 @@ function get_blog_id_from_url( $domain, $path = '/' ) {
  * Checks an email address against a list of banned domains.
  *
  * This function checks against the Banned Email Domains list
- * at wp-admin/network/settings.php. The check is only run on
- * self-registrations; user creation at wp-admin/network/users.php
+ * at administracao/network/settings.php. The check is only run on
+ * self-registrations; user creation at administracao/network/users.php
  * bypasses this check.
  *
  * @since MU
@@ -1136,7 +1136,7 @@ function install_blog($blog_id, $blog_title = '') {
 	// Cast for security
 	$blog_id = (int) $blog_id;
 
-	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+	require_once( ABSPATH . 'administracao/includes/upgrade.php' );
 
 	if ( $wpdb->get_results("SELECT ID FROM $wpdb->posts") )
 		die(__('<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>') . '</body></html>');
@@ -1183,7 +1183,7 @@ function install_blog($blog_id, $blog_title = '') {
 function install_blog_defaults($blog_id, $user_id) {
 	global $wpdb;
 
-	require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+	require_once( ABSPATH . 'administracao/includes/upgrade.php' );
 
 	$wpdb->suppress_errors();
 
@@ -1494,7 +1494,7 @@ function upload_is_user_over_quota( $echo = true ) {
  * which is defined in wp-includes/functions.php in
  * get_allowed_mime_types(). This function is used to filter
  * that list against the filetype whitelist provided by Multisite
- * Super Admins at wp-admin/network/settings.php.
+ * Super Admins at administracao/network/settings.php.
  *
  * @since MU
  *

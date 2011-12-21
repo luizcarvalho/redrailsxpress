@@ -1854,7 +1854,7 @@ function do_robots() {
 	} else {
 		$site_url = parse_url( site_url() );
 		$path = ( !empty( $site_url['path'] ) ) ? $site_url['path'] : '';
-		$output .= "Disallow: $path/wp-admin/\n";
+		$output .= "Disallow: $path/administracao/\n";
 		$output .= "Disallow: $path/wp-includes/\n";
 	}
 
@@ -2904,11 +2904,11 @@ function _default_wp_die_handler( $message, $title = '', $args = array() ) {
 		}
 
 		.button {
-			background: #f2f2f2 url(<?php echo wp_guess_url(); ?>/wp-admin/images/white-grad.png) repeat-x scroll left top;
+			background: #f2f2f2 url(<?php echo wp_guess_url(); ?>/administracao/images/white-grad.png) repeat-x scroll left top;
 		}
 
 		.button:active {
-			background: #eee url(<?php echo wp_guess_url(); ?>/wp-admin/images/white-grad-active.png) repeat-x scroll left top;
+			background: #eee url(<?php echo wp_guess_url(); ?>/administracao/images/white-grad-active.png) repeat-x scroll left top;
 		}
 		<?php if ( 'rtl' == $text_direction ) : ?>
 		body { font-family: Tahoma, Arial; }
@@ -3741,7 +3741,7 @@ function force_ssl_admin( $force = null ) {
 /**
  * Guess the URL for the site.
  *
- * Will remove wp-admin links to retrieve only return URLs not in the wp-admin
+ * Will remove administracao links to retrieve only return URLs not in the administracao
  * directory.
  *
  * @since 2.6.0
@@ -3753,7 +3753,7 @@ function wp_guess_url() {
 		$url = WP_SITEURL;
 	} else {
 		$schema = is_ssl() ? 'https://' : 'http://';
-		$url = preg_replace('|/wp-admin/.*|i', '', $schema . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
+		$url = preg_replace('|/administracao/.*|i', '', $schema . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']);
 	}
 	return rtrim($url, '/');
 }

@@ -105,7 +105,7 @@ final class _WP_Editors {
 				self::$has_medialib = true;
 
 				if ( !function_exists('media_buttons') )
-					include(ABSPATH . 'wp-admin/includes/media.php');
+					include(ABSPATH . 'administracao/includes/media.php');
 
 				echo '<div id="wp-' . $editor_id . '-media-buttons" class="hide-if-no-js wp-media-buttons">';
 				do_action('media_buttons', $editor_id);

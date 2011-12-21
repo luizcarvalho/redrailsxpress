@@ -15365,7 +15365,7 @@ msgstr "Visualização indisponível. Salve um rascunho antes."
 
 #: wp-admin/includes/schema.php:359
 msgid "Just another WordPress site"
-msgstr "Só mais um site WordPress"
+msgstr "Só mais um site RedRails"
 
 #: wp-admin/options-general.php:236
 #: wp-admin/includes/schema.php:380

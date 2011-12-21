@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * As configurações básicas do WordPress.
  *
  * Esse arquivo contém as seguintes configurações: configurações de MySQL, Prefixo de Tabelas,
@@ -16,13 +16,13 @@
 
 // ** Configurações do MySQL - Você pode pegar essas informações com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'nomedoBD');
+define('DB_NAME', 'redrailsxpress');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'usuarioMySQL');
+define('DB_USER', 'root');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'senha');
+define('DB_PASSWORD', '');
 
 /** nome do host do MySQL */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'coloque sua frase única aqui');
-define('SECURE_AUTH_KEY',  'coloque sua frase única aqui');
-define('LOGGED_IN_KEY',    'coloque sua frase única aqui');
-define('NONCE_KEY',        'coloque sua frase única aqui');
-define('AUTH_SALT',        'coloque sua frase única aqui');
-define('SECURE_AUTH_SALT', 'coloque sua frase única aqui');
-define('LOGGED_IN_SALT',   'coloque sua frase única aqui');
-define('NONCE_SALT',       'coloque sua frase única aqui');
+define('AUTH_KEY',         '-|tHIrT~[3:7bT-#0L=554+g)wb+4dA.~n_>NqloAth7SF@wr/+^-Q_MG;qrj,$<');
+define('SECURE_AUTH_KEY',  '4bZ|6<QTUHml=UOjE{vcT@Tm#|hmicOji#<!X[W5u_dNjP8]7IR+e6|p]`fLC[ez');
+define('LOGGED_IN_KEY',    'nFpIz;voQ{?})lOP%-j=H:-?F6#$?~qC4fsW@<@qQ>VKJb5.Ic~aP@1=NR87tS.k');
+define('NONCE_KEY',        'M-fjK8Us+II<07m|p{NqC7(Sw9y8BPJlOzlu!?|x R5?Z{/=s1oA]G1N9pDpz(k0');
+define('AUTH_SALT',        'B=}t#mNPNR3h,O2D)D>(JB-z>K<?UISgR{u-Y-I<lRXV/U$6q}.XauVQR3A-RoTf');
+define('SECURE_AUTH_SALT', ';m,3Z!0Mh$n6Qd><4fCe[G!l*|q%-GFzRv--8`O{+!)@v1vjEJ3/:Am9d-PP! L0');
+define('LOGGED_IN_SALT',   'o2HKF:>T2(KlmN<-w<eL|eFI/+vA/42OmN[YIm_a|U](^lNoa#x+W(( y8pLSb.O');
+define('NONCE_SALT',       'Na}u)0v9|8JT1ioj]^mKr4Hn%K{!~Jm,9JlZM!<*tSk;3DD]W{u}6+ruk,Exx6(u');
 
 /**#@-*/
 
@@ -78,13 +78,13 @@ define('WPLANG', 'pt_BR');
  * é altamente recomendável que os desenvolvedores de plugins e temas usem o WP_DEBUG
  * em seus ambientes de desenvolvimento.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* Isto é tudo, pode parar de editar! :) */
 
 /** Caminho absoluto para o diretório WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
-	
+
 /** Configura as variáveis do WordPress e arquivos inclusos. */
 require_once(ABSPATH . 'wp-settings.php');

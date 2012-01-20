@@ -1,1 +1,0 @@
-<?php exit('<h2>Directory Access Prohibited</h2>'); ?>

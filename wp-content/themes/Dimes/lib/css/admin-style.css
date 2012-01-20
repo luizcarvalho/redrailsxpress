@@ -1,0 +1,338 @@
+/**
+* Themater Admin Panel Style
+*/
+
+.tt-wrap {
+    width: 810px;
+    border:  1px solid #fff;
+    background: #e1e1e1;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+.tt-container {
+    border:  1px solid #fff;
+    width: 808px;
+    background: #fff;
+    display:block;
+}
+
+.tt-container:after {
+    content:"\0020";
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+    overflow:hidden;
+}
+
+.tt-content {
+    margin:10px 15px;
+    background: #fff;
+}
+
+
+/****************/
+
+.tt-themename, .tt-themename a {
+    font-style: normal;
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+}
+
+.tt-tabswrap {
+    margin: 10px 0;
+    padding-left: 10px;
+    background: url(../images/tab-line.png) left bottom repeat-x;
+}
+
+.tt-tab {
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    
+    padding:4px 14px 6px;
+    margin:0 6px 0 0;
+    
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    background-color:#ececec;
+ 
+    color:#848484;
+    display:inline-block;
+    
+    border: 1px solid #C1C1C1;
+    text-decoration:none;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+.tt-tab-active, .tt-tab:hover {
+    background-color:#FAFAFA;
+    color:#464646 !important;
+    border-bottom: 1px solid #f9f9f9;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+.tt-menu-content {
+    display: none;    
+    background: #fff;
+}
+
+.tt-menu-content-first {
+    display: block;    
+}
+
+
+/****************/
+
+.tt-form-element {
+    margin-bottom: 20px;
+}
+
+input.tt-text, textarea.tt-textarea {
+    background: #f7f6f6;   
+    padding: 5px; 
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    width: 100%;
+}
+
+select.tt-select {
+    min-width: 260px;    
+    background: #f7f6f6;   
+    padding: 6px; 
+    border-top: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    width: expression(this.clientWidth < 260 ? '260px':true);
+}
+
+input.tt-text:focus, textarea.tt-textarea:focus, select.tt-select:focus {
+    background: #fff;    
+}
+    
+input.tt-checkbox {
+    
+}
+
+input.tt-radio {
+    
+}
+
+.tt-element-content {
+    
+}
+
+.tt-form-label {
+    color: #555;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 8px 0;
+    margin-bottom: 10px;
+}
+
+.tt-help {
+    float: right;
+    margin-top: 4px;
+    opacity:0.3; 
+    filter:alpha(opacity=30);
+}
+
+.tt-help:hover {
+    opacity:1; 
+    filter:alpha(opacity=100);
+}
+
+.tt-extended-help, .tt-extended-top-help {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #777;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    
+}
+
+.tt-extended-help {
+    padding-top: 8px;
+}
+
+.tt-extended-top-help {
+    padding-bottom: 8px;
+}
+
+.tt-inline-label {
+    width: 25%;
+    padding:0!important;
+    color: #777;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.tt-inline-content {
+    width: 75%;
+    padding: 0 0 0 6px !important;
+}
+
+.tt-inline-help {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #777;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    padding-top: 6px;
+}
+
+.tt-inline-label2 {
+    width: 25%;
+    padding:0 !important;
+    color: #777;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tt-inline-content2 {
+    width: 75%;
+    padding: 0 8px 0 0 !important;
+}
+
+.tt-inline-help2 {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.tt-show-help {
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #333;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 6px;
+    display: none;
+    font-weight: normal;
+    padding: 6px;
+    background: #fdfac5;
+}
+
+.tt_imageupload, .tt_imageupload_reset {
+    padding: 4px 16px !important;
+}
+
+.tt-image-preview {
+    padding:10px 0;
+    width: 300px;
+}
+
+
+.tt-image-preview img {
+    max-width: 440px;
+    width: expression(this.width > 440 ? 440: true);
+}
+
+.tt-error {
+    background-color:#FFEBE8;
+    border:1px solid #CC0000;
+    padding: 6px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tt-success {
+    background:#E6EFC2;
+    color:#000;
+    border:1px solid #C6D880;
+    padding: 6px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tt-notice {
+    background:#FFFFE0;
+    color:#000;
+    border:1px solid #E6DB55;
+    padding: 6px;
+    margin-bottom: 10px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.tt-image-preview span {
+    padding-top: 10px !important;
+    font-size: 11px;
+    color: #999 !important;
+    font-style: italic;
+}
+
+.tt-button-red {
+    background: #FFEBE8 !important;
+    border:1px solid #CC0000 !important;
+    text-shadow: 0 1px 0 #fff !important;   
+    color: #CC0000 !important; 
+}
+
+.tt-credits {
+    color: #666;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    width: 812px;
+}
+
+.tt-credits a {
+    color: #666;
+    text-decoration: underline;
+}
+
+.tt-credits a:hover {
+    text-decoration: none;
+}
+
+.tt-widget {
+    margin-bottom: 20px;
+}
+
+.tt-widget-title {
+    color: #555;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 8px 0;
+    margin-bottom: 10px;
+}
+
+.tt-widget-label {
+    color: #111;
+    padding:5px 0 5px 0 !important;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 13px;
+}
+
+.tt-widget-content {
+    color: #555;
+    font-family: Arial, Helvetica, Sans-serif;
+    font-size: 12px;
+    padding: 5px 0 5px 6px !important;
+}
+
+.tt-widget-help {
+    font-style: italic; color: #777; font-size: 11px;
+}
+
+.tt-clearfix:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden;}
+.tt-clearfix{display:block;}

@@ -1,0 +1,216 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FLUID width
+    FAMOUSDOG.CSS made by Mike Cherim - http://green-beast.com 
+   Designed and built to work with the FamousDog WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+  width : 103%;
+}
+
+#gb_form {
+  text-align : left;
+  background : transparent;
+}
+
+#gb_form_div a {
+  color : #999;
+  text-decoration : underline;
+}
+
+#gb_form_div a:hover, #gb_form_div a:focus, #gb_form_div a:active {
+  color : #111;
+  text-decoration : none;
+  background-color : #fff;
+}
+
+#gb_form fieldset { 
+  border : 0;
+  margin-top : 10px;
+}
+
+#gb_form legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #99cc66;
+}
+
+#gb_form legend {
+  margin-left : -10px;
+  padding-top : 5px;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 1.2em;
+  color : #999;
+  margin-left : -10px;
+  padding-top : 5px;
+  padding-bottom : 10px;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+#gb_form_div .formhead small a {
+  font-size : .7em;
+  background-image : none;
+  display : inline;
+  padding : 0;
+  margin : 0;
+}
+
+#gb_form_div .main_formhead, #gb_form_div .formhead {
+  font-size : 1.2em;
+  color : #99cc66;
+  width : 97%;
+}
+
+#gb_form label { 
+  color : #666; 
+  margin-top : 5px;
+  margin-left : 0;
+}
+
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox { 
+  font : 1em verdana, arial, sans-serif; 
+  color : #333; 
+  padding : 4px; 
+  border : 1px solid #999;
+  background-color : #fff;
+  width : 70%;
+  font-size : 0.85em;
+  height : auto;
+}
+
+#gb_form input.short {
+  width : 7%;
+}
+
+#gb_form textarea.textbox {
+  width : 98%;
+  height : 220px;
+  line-height : 1.5em;
+}
+
+#gb_form select.med {
+  width : 60%;
+}
+
+#gb_form input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #99cc66;
+  border : 0;
+  padding : 0; 
+  margin : 0;
+  width : 10px;
+  height : 10px;
+}
+
+#gb_form input.button:hover, #gb_form input.button:focus, 
+#gb_form input.button.hover, #gb_form input.button.focus {
+  background-color : #99cc66;
+  color : #000;
+}
+
+/* NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { 
+  color : #000;  
+  padding : 4px; 
+  border : 1px inset #333;
+  background-color : #f9f9f9;
+  cursor : text;
+}
+
+#gb_form input.button {
+  margin-top : 10px;
+  padding-right : 20px;
+  padding-left : 20px;
+  width : 35%;
+  float : right;
+  cursor : pointer;
+  font-size : 0.9em;
+}
+
+span.error, span.success, #gb_form_div dt { 
+  color : #999;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #99cc66;
+}
+
+#gb_form_div .formhead span.error, span.error {
+  color : #cd0000;
+}
+
+#gb_form small.whythis, #gb_form small.whythis a { 
+  font-size : .7em; 
+  letter-spacing : 0.00001em;
+  text-decoration : none;
+  border : 1px solid #fafafa;
+  color : #333;
+}
+
+#gb_form small.whythis a span {
+  color : #fafafa;
+  font-family : arial, sans-serif;
+  padding : 1px 4px 1px 4px;
+}
+
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { 
+  text-decoration : none;
+  color : #000;
+}
+
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { 
+  border : 1px solid #000;
+  background-color : #99cc66;
+  color : #000;
+  font-style : normal; 
+}
+
+#gb_form p.creditline small {
+  font-family : arial, sans-serif;
+  clear : both; 
+  display : block;
+  text-align : right;
+  margin : 0;
+  padding : 25px 0 15px 0;
+  font-size : .7em;
+  letter-spacing : 0.0001em;
+  color : #999;
+}
+
+/* NOTE: .abbr class is for IE */
+.abbr { 
+  cursor : help; 
+  border-bottom : 1px dashed #ccc;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #99cc66;
+}
+
+
+/* End SEABEAST CSS */

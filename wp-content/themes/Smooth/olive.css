@@ -1,0 +1,708 @@
+/*  
+Theme Name: Smooth Real Estate 
+Theme URI: http://gorillathemes.com/smooth
+Description: Professional and easy to use real estate website
+Version: 3.1
+Author: Gorilla Themes
+Author URI: http://www.gorillathemes.com/
+
+*/
+
+@import url("960/960.css");
+@import url("960/reset.css");
+@import url("960/text.css");
+/*
+===============================================global settings ==========*/
+
+body {
+	color:#333;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ol, ul, li {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+h1 {
+	font-size:18px;
+	margin:0;
+	padding:5px 0 5px 0px;
+}
+h2 {
+	clear: left;
+	font-size: 16px;
+}
+h3 {
+	background:#f7f7f7;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	color:#212121;
+	font-size:125%;
+	font-family: Helvetica;
+	margin:10px 0 10px 0;
+	padding:5px 0 5px 10px;
+	clear: both;
+}
+h3 .small {
+	font-size:10px;
+}
+p {
+	padding:5px 0 5px 10px;
+}
+small {
+	margin:0px;
+	padding:0px;
+	font-size: 10px;
+}
+/*
+======================================================= header =========*/
+#topstripe {
+	background:#283919;
+	border-bottom:4px solid #eee;
+	color:#fff;
+	height:24px;
+	margin-bottom:10px;
+	padding-bottom:6px;
+	padding-top:0px;
+	width:100%;
+	display:block;
+}
+#topstripe_left {
+	height:22px;
+	margin-bottom:0;
+	margin-top:0;
+	line-height: 22px;
+	font-weight:700;
+}
+#topstripe_left p {
+	padding-left: 0;
+}
+#topstripe_right {
+	height:22px;
+	margin-bottom:0;
+	margin-top:0;
+	text-align:right;
+	line-height: 22px;
+	color:#FFD700;
+}
+#logo {
+	margin:0px 0px 0px 0px;
+	float:left;
+	width:260px;
+	height:77px;
+}
+#contact_button {
+	height:70px;
+	margin-top:20px;
+	padding-right:30px;
+	float:right;
+}
+/*
+======================================================== defining blocks =======*/
+#main_content h2{
+
+	padding:3px 0px 2px 8px;
+	font-size:13px;
+	color:#283919;
+	text-transform: uppercase;
+	background: #ebebeb;
+	border-bottom:1px solid #ddd;
+}
+
+#menubg {
+	background:url(images/olive/menu_bg.png) no-repeat center top;
+	height:52px;
+}
+#share {
+	height:30px;
+	text-align: right;
+}
+.share_inner {
+	padding-right:10px;
+	padding-top:12px;
+}
+#slider {
+	background:url(images/slider_bg.png) no-repeat center top;
+	height:134px;
+	position:relative;
+	z-index: -1px;
+}
+#home_agent_inner {
+	background:#f7f7f7;
+	border:5px solid #ebebeb;
+	height:170px;
+	margin-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+#home_calc_inner {
+	background:#fff;
+	border:5px solid #ebebeb;
+	height:170px;
+	margin-bottom:10px;
+	padding-left:5px;
+}
+
+#latestlistings {
+	margin-top:10px;
+}
+
+#latest_listings img {
+	margin:auto 0 auto 5px;
+	text-align: center;
+	width:150px;
+	height:80px
+}
+#news {
+	clear:both;
+	margin-bottom:10px;
+
+}
+#sidebar {
+   width:290px;
+   background:url(images/sidebar_heading_bg.png) repeat-x top;
+   border:5px solid #ebebeb;
+}
+#sidebar_inner {
+padding-left:18px;
+padding-bottom:10px;
+}
+
+#sidebar h2 {
+	font-family: Helvetica;
+	color:#212121;
+	font-size:16px;
+	margin-bottom:30px;
+	padding:8px 0 0;
+}
+.search_input {
+	background:url(images/searchbox_bg.png) no-repeat top left;
+	border:none;
+	height:18px;
+	padding:5px 10px 5px 5px;
+	width:208px;
+}
+.submit_button {
+	float:right;
+	padding:3px;
+	margin-right:20px;
+}
+/*
+======================================================= dropdown styling ========*/
+.dd1 {
+	clear:both;
+	margin:10px 0;
+}
+.searchby {
+	float:left;
+	width:250px;
+	font-weight: 700;
+	color: #000000;
+	margin:0px 0px 0px 0px;
+}
+
+.dd_search{
+
+margin-top:20px;
+
+}
+
+
+.dd1 select {
+	clear:left;
+	float:left;
+	width:250px;
+	margin-bottom:15px;
+}
+/*
+====================================================== footer =======*/
+
+#footer {
+	background:#333;
+	border-top:20px solid #000000;
+	color:#fff;
+	clear:both;
+	margin:60px 0px 20px 0px;
+	padding-top:30px;
+	width:100%;
+	overflow: hidden;
+}
+# footer a{
+color:#fff;
+}
+#footer_right {
+	height:270px;
+	text-align:center;
+	margin-top:20px;
+}
+#footer_right img {
+	margin-right: 10px;
+	margin-bottom: 10px;
+    border: 5px solid #666;
+}
+#footer .widgets ul li ul.blogroll li {
+	border-bottom: 1px #777 dotted;
+	color:#fff;
+	}
+#footer .widgets ul li a{
+	
+	color:#fff;
+}
+#footer_left, #footer_center {
+	height:100%;
+}
+#sidebar .widgets li, #footer .widgets li {
+	padding:8px 0 8px 0;
+}
+/*
+======================================================= widgets ========*/
+.widgets {
+	border-top:1px dotted #000000;
+	margin-top:15px;
+}
+.widgets ul li {
+	margin:0;
+	padding:0;
+}
+#sidebar_inner .widgets ul li a {
+	padding-left: 24px;
+	background: url(images/olive/bullet_arrow.png) no-repeat top left;
+}
+#sidebar_inner .widgets ul li .widget_title {
+	color:#333;
+	font-size:16px;
+	font-weight:700;
+	margin:0;
+	padding:8px 0 0;
+}
+#sidebar .widget_title {
+	color:#333;
+	font-size:22px;
+}
+#footer .widget_title {
+	color:#fff;
+	font-size:22px;
+}
+#sidebar li .recentcomments a.url, #sidebar ul li .recentcomments a {
+	background: none;
+}
+
+.banner300x250 {
+    margin-top:10px;
+}
+.sociable ul li{
+
+
+	display:inline;
+	float:right;
+	}
+/*
+======================================================= menu ========*/
+
+.sf-menu {
+    font-size:12px;
+    font-family:Helvetica,Arial,sans-serif;
+    font-weight:bold;
+    width:900px;
+    position:relative;
+    z-index: 5;
+    margin-top:10px;
+    }
+.sf-menu, .sf-menu ul {
+    float:left;
+    list-style:none;
+    line-height:40px;
+    padding:0;
+    margin-left:10px;
+    width:900px;
+    position:relative;
+    
+    }
+.sf-menu a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    position:relative;
+    border-right:1px #4e772c solid; 
+	line-height: 13px;
+	padding:5px 15px 5px 10px;
+    }
+.sf-menu li {
+    float:left;
+    padding:0;
+    }
+.sf-menu ul {
+    position:absolute;
+    left:-999em;
+    height:auto;
+    width:151px;
+    font-weight:normal;
+	margin: 0;
+    line-height:1;
+    border:0;
+    }
+.sf-menu li li {
+    width:149px;
+    font-weight:bold;
+    }
+.sf-menu li li a {
+    padding:8px 10px;
+    width:130px;
+    font-size:12px;
+    color:#212121;
+    }
+.sf-menu li ul ul {
+    margin:-29px 0 0 150px;
+    }
+.sf-menu li li:hover {
+    }
+.sf-menu li ul li:hover a, .sf-menu li ul li li:hover a, .sf-menu li ul li li li:hover a, .sf-menu li ul li li li:hover a {
+    color:#6aa03f;
+    text-decoration: none
+    }
+.sf-menu li:hover a, .sf-menu li.sfhover a {
+    color:#6aa03f;
+    }
+.sf-menu li:hover li a, .sf-menu li li:hover li a, .sf-menu li li li:hover li a, .sf-menu li li li li:hover li a {
+    color:#fff;
+    border-bottom:1px #4e772c solid;
+    }
+.sf-menu li:hover ul ul, .sf-menu li:hover ul ul ul, .sf-menu li:hover ul ul ul ul, .sf-menu li.sfhover ul ul, .sf-menu li.sfhover ul ul ul, .sf-menu li.sfhover ul ul ul ul {
+    left:-999em;
+    }
+.sf-menu li:hover ul, .sf-menu li li:hover ul, .sf-menu li li li:hover ul, .sf-menu li li li li:hover ul, .sf-menu li.sfhover ul, .sf-menu li li.sfhover ul, .sf-menu li li li.sfhover ul, .sf-menu li li li li.sfhover ul {
+    left:auto;
+    background:#26410f;
+    }
+.sf-menu li:hover, .sf-menu li.sfhover {
+
+    }
+    
+  .sf-menu .current_page_item a, .home .on {
+	border-right: #4e772c solid 1px;
+	color:#fff;
+	display:block;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:700;
+	margin:0px 5px 0 0;
+	line-height: 13px;
+	padding:5px 10px 5px 10px;
+	text-decoration:underline;
+}  
+
+/*
+====================================================== Slider ========*/
+
+.metalistingprice{
+		font-weight: normal;
+		font-size:11px;
+}
+.metalistingtype{
+		font-weight: bold;
+		padding: 2px 4px 2px 4px;
+		background:#a80000;
+		color:#fff;
+		font-size: 11px;
+}
+
+#horizontal_carousel {
+
+
+float:left;
+	width:922px;
+	position:relative;
+	float:left;
+	height:82px;
+	margin-bottom:10px;
+	margin-top:18px;
+	padding:3px;
+
+	
+}
+#horizontal_carousel .container {
+	float:left;
+	height:90px;
+	margin-left:98px;
+	margin-top:6px;
+	overflow:hidden;
+	position:relative;
+	width:746px;
+}
+/**/
+.carousel {
+	height:98px;
+}
+.carousel p {
+	margin: 0px;
+	text-align: left;
+}
+a.carousel {
+	color:#333;
+	display:block;
+	padding-top:6px;
+	text-decoration:none;
+}
+a.carousel:hover {
+	color:#000000;
+	padding-top:6px;
+	height:94px;
+	display:block;
+}
+#horizontal_carousel ul {
+margin:0;
+	padding:0;
+	width:100000px;
+	position:relative;
+	color:#000;
+	font-weight:bold;
+	font-size:11px;
+	top:0;
+	left:0;
+	height:106px;
+	z-index:1;
+}
+#horizontal_carousel ul li {
+
+	width:245px;
+	height:84px;
+	text-align:left;
+	list-style:none;
+	display:block;
+	float:left;
+	position:relative;
+	padding:0px 2px 0px 0px;
+}
+#horizontal_carousel ul li img {
+	border-bottom:none;
+	border-top:none;
+	float:left;
+	border:3px solid #ccc;
+	margin:0px 5px 0px 10px;
+	width:110px;
+	Height:70px;
+}
+#horizontal_carousel .next_button {
+	background:url(images/olive/right_over.png);
+	cursor:pointer;
+	float:right;
+	height:50px;
+	width:32px;
+	z-index:100;
+	margin-top: 20px;
+	
+}
+#horizontal_carousel .previous_button {
+	background:url(images/olive/left_over.png);
+	cursor:pointer;
+	float:right;
+	height:50px;
+	width:32px;
+	z-index:100;
+	margin-top: 20px;
+}
+#horizontal_carousel .previous_button_over {
+	background:url(images/olive/left_over.png);
+}
+#horizontal_carousel .previous_button_disabled {
+	background:url(images/left_disabled.png);
+	cursor:default;
+}
+#horizontal_carousel .next_button_over {
+	background:url(images/olive/right_over.png);
+}
+#horizontal_carousel .next_button_disabled {
+	background:url(images/right_disabled.png);
+	cursor:default;
+}
+/*
+====================================================== Latest Listings =======*/
+
+.latest_listings {
+	float:left;
+	margin:3px 8px 10px 8px;
+	min-height:84px;
+	padding-top:5px;
+	width:180px;
+	background:#fff;
+	border: 5px #ebebeb solid;
+}
+
+.latest_listings img {
+	margin:0 auto 10px 26px;
+	border:3px solid #ebebeb;
+	width:120px;
+	height:80px
+}
+.grid-left {
+	float:left;
+	padding-left:20px;
+	width:90%;
+	color:#000;
+}
+.address {
+	clear:left;
+	color:#000;
+}
+.price {
+	color:#000;
+	font-weight:700;
+	font-size: 14px;
+	padding-left: 26px;
+}
+.view img {
+	float:right;
+	padding-right:28px;
+	margin-left:10px;
+	border:none;
+	width: 51px;
+	height: 24px;
+}
+/*
+=========================================================== Agent Photo =======*/
+.home_agent img {
+	float:left;
+	margin:10px 10px 0px 0px;
+	padding:0px;
+	border:1px solid #ebebeb;
+}
+.home_agent .title {
+	color:#212121;
+	font-size:12px;
+	margin:0 0 5px;
+	padding:10px;
+	font-weight: 700;
+}
+h3 a, a, a:hover {
+	color:#000;
+}
+h1.agent{padding:3px 0px 2px 8px;
+	font-size:13px;
+	color:#0073e9;
+	text-transform: uppercase;
+	background: none;
+	border:none;
+}
+.agentthumb{
+	border:1px solid #eeeeee;
+}
+
+/*
+====================================================== Property Listings =======*/
+
+.left_float_image {
+	float:left;
+	margin: 3px 10px 0px 0;
+	border:5px solid #ebebeb;
+	background: #f7f7f7;
+}
+a:hover .left_float_image {
+	float:left;
+	margin: 3px 10px 0px 0;
+	border:5px solid #9f9f9f;
+	background: #FFFFCC;
+}
+.more, .more a {
+	padding:3px 6px 3px 3px;
+	color:#666;
+
+	line-height:30px;
+	font-weight:bold;
+}
+/*
+====================================================== Property Details Page =======*/
+.current_property {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 36px;
+	padding-left:10px;
+	font-size: 14px;
+	margin: 0px 0px 0px 0px;
+	margin-bottom: 5px;
+	color: #000;
+	margin-top: 10px;
+}
+.features_left {
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 22px;
+	padding:0px 10px 10px 10px;
+	font-size: 12px;
+	background-color: #fff;
+	margin-bottom: 5px;
+	color: #000;
+	font-weight: bold;
+	float:left;
+	width: 280px;
+}
+.features_right {
+	text-decoration: none;
+	text-align: left;
+	letter-spacing: 0;
+	line-height: 22px;
+	padding:0px 10px 10px 10px;
+	font-size: 12px;
+	background-color: #fff;
+	margin-bottom: 5px;
+	color: #000;
+	font-weight: bold;
+	float:right;
+	width: 280px;
+}
+.thumbs {
+	float:left;
+	margin: 5px 8px 5px 0;
+	padding:3px;
+	border: solid #eeeeee 2px;
+	background: #f7f7f7;
+}
+.highlight {
+	color: #ff0000;
+	padding: 3px;
+}
+.gallery{
+	margin-bottom:15px;	
+}
+.metalisting{
+		font-weight: normal;
+}
+/*
+====================================================== Calculator Page  =======*/
+		
+.calc {
+	width: 90%;
+	margin: 8px;
+	padding: 10px;
+	border: 5px solid #eeeeee;
+}
+.calc input {
+	height:25px;
+	width: 100px;
+	border: 1px solid #212121;
+	margin: 8px;
+}
+/*
+====================================================== Blog Single Post  =======*/
+
+#blog_single p {
+	font-size: 12px;
+	float:left;
+}
+#blog_single img {
+	float:left;
+	margin: 0 10px 5px 0;
+}
+#commentform textarea {
+	width: 500px;
+}
+

@@ -1,0 +1,156 @@
+#cssmenu {
+	margin: 0; /* all lists */
+	padding: 0 0 0 5px;
+	float: left;
+	border-right: 1px solid #787878;
+}
+
+#cssmenu ul {
+	margin: 0; /* all lists */
+	padding: 0;
+}
+
+#cssmenu li {
+	margin: 0; /* all list items */
+	padding: 0;
+	float: left;
+	display: block;
+	background: none;
+	cursor: pointer;
+}
+
+#cssmenu li ul {
+	width: 16.4em;
+	position: absolute; /* second-level lists */
+	z-index: 99;
+	left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	height: auto;
+	w\idth: 15.9em;
+}
+
+#cssmenu li ul ul {
+	margin: -1.9em 0 0 14.5em; /* third-and-above-level lists */
+}
+
+#cssmenu li li {
+	padding: 0 1em 0 0;
+	margin: 0;
+	width: 14.9em;
+}
+
+#cssmenu ul a {
+	width: 14.8em;
+	w\idth: 10.8em;
+}
+
+#cssmenu li:hover ul ul, #cssmenu li:hover ul ul ul,
+#cssmenu li.sfhover ul ul, #cssmenu li.havechildsfhover ul ul, #cssmenu li.havechild-activesfhover ul ul, #cssmenu li.activesfhover ul ul,
+#cssmenu li.sfhover ul ul ul, #cssmenu li.havechildsfhover ul ul ul, #cssmenu li.havechild-activesfhover ul ul ul, #cssmenu li.activesfhover ul ul ul {
+	left: -999em;
+}
+
+/* This "unhides" the sub-menus (left: -999em is what hides them) */
+#cssmenu li:hover ul, #cssmenu li li:hover ul, #cssmenu li li li:hover ul,
+#cssmenu li.sfhover ul, #cssmenu li.havechildsfhover ul, #cssmenu li.havechild-activesfhover ul, #cssmenu li.activesfhover ul,
+#cssmenu li li.sfhover ul, #cssmenu li li.havesubchildsfhover ul, #cssmenu li li.havesubchild-activesfhover ul, #cssmenu li li.activesfhover ul,
+#cssmenu li li li.sfhover ul, #cssmenu li li li.havesubchildsfhover ul, #cssmenu li li li.havesubchild-activesfhover ul, #cssmenu li li li.activesfhover ul {
+	left: auto;
+}
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#cssmenu li a {
+	margin: 0;
+	padding: 0 20px;
+	border-left: 1px solid #787878;
+	border-right: 1px solid #333333;
+	display: block;
+	color: #EFEFEF;
+	font-size: 110%;
+	font-weight: bold;
+	line-height: 40px;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+
+#cssmenu li a:hover,
+#cssmenu li a:active,
+#cssmenu li a:focus {
+	color: #FFFFFF;
+}
+
+#cssmenu li:hover a,
+#cssmenu li.sfhover a,
+#cssmenu li.havechildsfhover a,
+#cssmenu li.havechild-activesfhover a {
+	color: #FFFFFF;
+	background: url(../images/mainnav-hover.gif) repeat-x top right #333333;
+}
+
+#cssmenu li:hover li a,
+#cssmenu li.sfhover li a,
+#cssmenu li.havechildsfhover li a,
+#cssmenu li.havechild-activesfhover li a {
+	background: none;
+}
+
+#cssmenu li a.active,
+#cssmenu li a.active:hover,
+#cssmenu li a.active:active,
+#cssmenu li a.active:focus {
+	color: #FFFFFF;
+	background: url(../images/mainnav-active.gif) repeat-x top right #666666;
+}
+
+/* 2nd level and above */
+#cssmenu li ul {
+	border-right: 1px solid #1F1F1F;
+	border-bottom: 1px solid #1F1F1F;
+	border-left: 1px solid #1F1F1F;
+	background: url(../images/grad3.jpg) repeat top #404040;
+}
+
+#cssmenu li ul li {
+	border: none;
+	color: #CCCCCC;
+}
+
+#cssmenu li ul a {
+	margin: 0;
+	padding: 0 10px;
+	border: none;
+	white-space: nowrap;
+	color: #CCCCCC;
+	font-weight: normal;
+	font-size: 92%;
+	line-height: 30px;
+}
+
+#cssmenu li.havesubchild,
+#cssmenu li.havesubchild-active {
+	background: url(../images/arrow.png) no-repeat 94% 50%;
+}
+
+#cssmenu li ul a:hover,
+#cssmenu li ul a:active,
+#cssmenu li ul a:focus,
+#cssmenu ul li:hover,
+#cssmenu ul li.sfhover,
+#cssmenu ul li.havesubchildsfhover,
+#cssmenu ul li.havesubchild-activesfhover,
+#cssmenu ul ul li:hover,
+#cssmenu ul ul li.sfhover,
+#cssmenu ul ul li.havesubchildsfhover,
+#cssmenu ul ul li.havesubchild-activesfhover {
+	color: #FFFFFF;
+	background: url(../images/grad4.jpg) repeat-x top #2F2F2F;
+}
+
+#cssmenu ul li a.active,
+#cssmenu ul li a.active:hover,
+#cssmenu ul li a.active:active,
+#cssmenu ul li a.active:focus {
+	background: none !important;
+	color: #F26522;
+}

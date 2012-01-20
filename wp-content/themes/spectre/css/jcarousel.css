@@ -1,0 +1,142 @@
+.jcarousel-container {
+	position: relative;
+}
+
+.jcarousel-clip {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.jcarousel-list {
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+/* FEATURES
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.jcarousel-features .jcarousel-list li,
+.jcarousel-features .jcarousel-item {
+	position: relative;
+	float: left;
+	list-style: none;
+	width: 630px;
+	height: 250px;
+}
+
+.jcarousel-features .jcarousel-container {
+	
+}
+
+.jcarousel-features .jcarousel-container-horizontal {
+	width: 980px;
+}
+
+.jcarousel-features .jcarousel-clip-horizontal {
+	position: absolute;
+	top: 12px;
+	left: 330px;
+	width: 630px;
+	height: 250px;
+}
+
+.jcarousel-features .jcarousel-item {
+	width: 630px;
+	height: 250px;
+}
+
+.jcarousel-features .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+
+/* SCREENSHOTS
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+.jcarousel-screenshots .jcarousel-list li,
+.jcarousel-screenshots .jcarousel-item {
+	position: relative;
+	float: left;
+	list-style: none;
+	width: 590px;
+	height: auto;
+}
+
+.jcarousel-screenshots .jcarousel-container {
+	
+}
+
+.jcarousel-screenshots .jcarousel-container-horizontal {
+	width: 590px;
+	height: auto;
+}
+
+.jcarousel-screenshots .jcarousel-clip-horizontal {
+	width: 590px;
+	height: auto;
+}
+
+.jcarousel-screenshots .jcarousel-item {
+	width: 590px;
+	height: auto;
+}
+
+.jcarousel-screenshots .jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+
+.jcarousel-screenshots .jcarousel-next-horizontal {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.jcarousel-screenshots .jcarousel-next-horizontal:hover {
+    background-position: 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-next-horizontal:active {
+    background-position: 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal,
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal:active {
+    cursor: default;}
+
+.jcarousel-screenshots .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.jcarousel-screenshots .jcarousel-prev-horizontal:hover {
+    background-position: 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-prev-horizontal:active {
+    background-position: 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal,
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal:active {
+    cursor: default;
+    background-position: -32px 0;
+}
+

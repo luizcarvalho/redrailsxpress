@@ -1,0 +1,394 @@
+body {
+	color: #46545d;
+	background: #78868f url("../images/blue/bg.jpg") repeat-y 50% 0;
+}
+
+#logo span {
+	background: url("../images/blue/logo.jpg") no-repeat 0 0;
+}
+
+#description {
+	color: #46545d;
+	background: url("../images/blue/description-bg.jpg") no-repeat 0 0;
+}
+
+#availability {
+	color: #2c343a;
+	background: url("../images/blue/availability-bg.gif") no-repeat 0 50%;
+}
+
+#availability a:link, #availability a:visited, #availability a:active {
+	color: #8e001c;
+}
+
+#availability a:hover {
+	color: #2c343a;
+}
+
+#search #s {
+	color: #46545d;
+}
+
+#search #s:focus {
+	color: #2c343a;
+}
+
+#search #s {
+	background: transparent url("../images/blue/search-input.jpg") no-repeat 0 0;
+}
+
+#nav {
+	background: url("../images/blue/nav-bg.jpg") no-repeat 0 0;
+}
+
+#navlist li a:link, #navlist li a:visited, #navlist li a:active {
+	color: #78868f;
+	background: url("../images/blue/nav-li-bg.jpg") no-repeat 100% 0;
+}
+
+#navlist li a:hover {
+	color: #46545d;
+	background: url("../images/blue/nav-li-bg.jpg") no-repeat 100% -80px;
+}
+
+#navlist li.current_page_item a:link, #navlist li.current_page_item a:visited, #navlist li.current_page_item a:active, #navlist li.current_page_item a:hover {
+	background: url("../images/blue/nav-li-bg.jpg") no-repeat 100% -160px;
+	color: #eff8ff;
+}
+
+#subscribe-feed a {
+	background: url("../images/blue/subscribe.jpg") no-repeat 0 0;
+}
+
+#subscribe-feed a:hover {
+	background: url("../images/blue/subscribe.jpg") no-repeat 0 -60px;
+}
+
+#subscribe-email a {
+	background: url("../images/blue/subscribe.jpg") no-repeat -57px 0;
+}
+
+#subscribe-email a:hover {
+	background: url("../images/blue/subscribe.jpg") no-repeat -57px -60px;
+}
+
+#features {
+	background: url("../images/blue/features-bg.jpg") no-repeat 0 0;
+}
+
+#features-nav .features-nav-item {
+	background: url("../images/blue/features-nav-bg.jpg") repeat-x 0 0;
+}
+
+#features-nav .features-nav-item.current {
+	background: url("../images/blue/features-nav-current.png") no-repeat 0 0 !important;
+	background: url("../images/blue/features-nav-current.gif") no-repeat 0 0;
+}
+
+.features-nav-tnail {
+	background: url("../images/blue/features-nav-tnail.jpg") no-repeat 0 0;
+}
+
+#features-nav .features-nav-item h3 {
+	color: #8c9398;
+}
+
+#features-nav .features-nav-item p {
+	color: #96a1a9;
+}
+
+#features-nav .features-nav-item.current h3 {
+	color: #8e001c;
+}
+
+#features-nav .features-nav-item.current p {
+	color: #46545d;
+}
+
+#points {
+	background: url("../images/blue/points-bg.jpg") repeat-y 0 0;
+}
+
+#points-inner {
+	background: url("../images/blue/points-inner-bg.jpg") no-repeat 0 0;
+}
+
+.point h3 {
+	color: #f1f6f9;
+}
+
+.point p {
+	color: #d8e6ef;
+}
+
+#points a:link, #points a:visited, #points a:active {
+	color: #9ba9b2;
+}
+
+#points a:hover {
+	color: #f1f6f9;
+}
+
+#mid {
+	background: url("../images/blue/mid-bg.jpg") repeat-y 0 0;
+}
+
+#mid-inner {
+	background: url("../images/blue/mid-inner-bg.jpg") no-repeat 0 0;
+}
+
+.content a:link, .content a:visited, .content a:active {
+	color: #2c343a;
+}
+
+.content a:hover {
+	color: #d8e6ef;
+	background: #2c343a;
+}
+
+.content h1 {
+	color: #2c343a;
+}
+
+#archive-title {
+	background: url("../images/blue/divider.jpg") repeat-x 0 100%;
+}
+
+#archive-title h1 {
+	color: #8e001c;
+}
+
+#archive-title h1 strong {
+	color: #2c343a;
+}
+
+.content h2, .content h3, .content h4, .content h5, .content h6 {
+	color: #8e001c;
+	background: url("../images/blue/divider.jpg") repeat-x 0 100%;
+}
+
+.content blockquote {
+	background: #cedde4;
+}
+
+.content img {
+	background: #cedde4;
+}
+
+.content .wp-caption {
+	background: #cedde4;
+}
+
+.content .wp-caption p {
+	color: #78868f;
+}
+
+#content .navigation a, #content .edit a, #commentform #submit, #portfolio-categories li a {
+	color: #2c343a;
+	background: #c3cfd7 url("../images/blue/button-bg.jpg") repeat-x 0 0;
+	border: 1px solid #cbd2d8;
+}
+
+#content .navigation a:hover, #content .edit a:hover, #commentform #submit:hover, #portfolio-categories li a:hover {
+	background: #f2f8fd url("../images/blue/button-bg.jpg") repeat-x 0 100%;
+}
+
+#btn-moreinfo {
+	background: url("../images/blue/btn-moreinfo.png") no-repeat 0 0 !important;
+	background: url("../images/blue/btn-moreinfo.gif") no-repeat 0 0;
+}
+
+#btn-moreabout {
+	background: url("../images/blue/btn-about-us.gif") no-repeat 0 0;
+}
+
+#btn-twitter {
+	background: url("../images/blue/btn-follow-us.jpg") no-repeat 0 0;
+}
+
+#btn-twitter.me {
+	background: url("../images/blue/btn-follow-me.jpg") no-repeat 0 0;
+}
+
+#btn-moreabout.me {
+	background: url("../images/blue/btn-about-me.gif") no-repeat 0 0;
+}
+
+#breadcrumb {
+	background: url("../images/blue/breadcrumb-bg.jpg") no-repeat 0 0;
+}
+
+#breadcrumb a {
+	background: url("../images/blue/breadcrumb-divider.jpg") no-repeat 100% 0;
+}
+
+#breadcrumb a:hover {
+	color: #2c343a;
+}
+
+.post {
+	background: url("../images/blue/divider.jpg") repeat-x 0 100%;
+}
+
+#content .post-comments a {
+	color: #78868f;
+	background: url("../images/blue/post-comments-bg.jpg") no-repeat 50% 50%;
+}
+
+#content .post-comments a:hover {
+	color: #2c343a;
+	background: transparent url("../images/blue/post-comments-bg.jpg") no-repeat 50% 50%;
+}
+
+.post.archive h3 a {
+	color: #2c343a;
+}
+
+.post.archive h3 a:hover {
+	color: #2c343a;
+}
+
+.post-date {
+	color: #78868f;
+}
+
+.post-tnail {
+	background: url("../images/blue/post-tnail-bg.jpg") no-repeat 0 0;
+}
+
+.post a.more:link, .content a.more:visited, .content a.more:active {
+	color: #8e001c;
+}
+
+.content a.more:hover {
+	color: #d8e6ef;
+	background: #8e001c;
+}
+
+.post-meta {
+	background: #f0f7fd;
+}
+
+
+#post-author {
+	background: #cedde4;
+}
+
+#post-author .post-author-avatar {
+	background: #d8e6ef;
+}
+
+#comments .bypostauthor > div > div > .avatar {
+	background: #8e001c;
+}
+
+#portfolio-archive .item .portfolio-summary p, .portfolio.archive .post p {
+	color: #78868f;
+}
+
+#screenshots {
+	background: #cedde4;
+}
+
+#screenshots h3 {
+	color: #78868f;
+}
+
+#screenshots ul li a {
+	color: #78868f;
+}
+
+#screenshots ul li a:hover {
+	color: #2c343a;
+}
+
+.jcarousel-screenshots .jcarousel-next-horizontal {
+	background: transparent url(../images/blue/arrow-next.jpg) no-repeat 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-next-horizontal:hover {
+	background: transparent url(../images/blue/arrow-next.jpg) no-repeat 0 -32px;
+}
+
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal,
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-screenshots .jcarousel-next-disabled-horizontal:active {
+	background: transparent url(../images/blue/arrow-next.jpg) no-repeat 0 -64px;
+}
+
+.jcarousel-screenshots .jcarousel-prev-horizontal {
+	background: transparent url(../images/blue/arrow-prev.jpg) no-repeat 0 0;
+}
+
+.jcarousel-screenshots .jcarousel-prev-horizontal:hover {
+	background: transparent url(../images/blue/arrow-prev.jpg) no-repeat 0 -32px;
+}
+
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal,
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-screenshots .jcarousel-prev-disabled-horizontal:active {
+	background: transparent url(../images/blue/arrow-prev.jpg) no-repeat 0 -64px;
+}
+
+#sidebar .widget li {
+	background: url("../images/blue/divider.jpg") repeat-x 0 100%;
+}
+
+#comments .commentlist li.depth-1 {
+	background: url("../images/blue/divider.jpg") repeat-x 0 100%;
+}
+
+#comments .commentlist ul {
+	border-left: 5px solid #cbd2d8;
+}
+
+#commentform p small {
+	color: #7b7869;
+}
+
+#comments .comment-author cite {
+	color: #969696;
+}
+
+#commentform label small {
+	color: #46545d;
+}
+
+#commentform label small span {
+	color: #78868f;
+}
+
+#commentform input, #commentform textarea {
+	color: #78868f;
+	background: #f0f7fd;
+	border: 1px solid #cbd2d8;
+}
+
+#commentform input:focus, #commentform textarea:focus {
+	color: #2c343a;
+	border: 1px solid #bcc5cc;
+}
+
+#ad-buttons {
+	background: #cedde4;
+}
+
+#footer {
+	background: url("../images/blue/footer-bg.jpg") no-repeat 0 100%;
+}
+
+#footer-inner {
+	background: url("../images/blue/footer-inner-bg.jpg") no-repeat 0 0;
+}
+
+#footer span {
+	color: #92a0a9;
+}
+
+#footer a:link, #footer a:visited, #footer a:active {
+	color: #46545d;
+}
+
+#footer a:hover {
+	color: #2c343a;
+}

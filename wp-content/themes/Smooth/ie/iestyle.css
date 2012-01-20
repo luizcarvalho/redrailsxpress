@@ -1,0 +1,133 @@
+
+/*
+====================================================== top stripe =======*/
+
+#topstripe
+{
+	background:#000;
+	color:#fff;
+	height:16px;
+    margin:0 0 10px 0;
+	padding:5px 0 0 0;
+	width:100%;
+    display:block;
+}
+
+#topstripe_left
+{
+	height:16px;
+	margin-bottom:0;
+	margin-top:0;
+    line-height: 16px;
+    font-weight:700;
+}
+
+#topstripe_right
+{
+	height:16px;
+	margin-bottom:0;
+	margin-top:0;
+	text-align:right;
+    line-height: 16px;
+	color:#FFD700;
+}
+
+
+/*
+======================================================= Slider ========*/
+#slider
+{
+	background:url(images/slider_bg.png) no-repeat 10px top;
+	height:120px;
+	margin:10px 0;
+    padding: 0;
+width: 960px;
+
+}
+
+
+#horizontal_carousel
+{
+
+	float:left;
+	height:120px;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding-top:0px;
+	position:relative;
+	width:960px;
+}
+
+#horizontal_carousel .container
+{
+	float:left;
+	height:115px;
+padding-left:20px;
+padding-top: 5px;
+	overflow:hidden;
+	position:relative;
+	width:930px;
+}
+
+
+#horizontal_carousel .next_button
+{
+	background:url(images/right.png);
+	cursor:pointer;
+	float:right;
+	height:50px;
+	width:32px;
+	z-index:10000;
+margin-right:10px;
+margin-top: 40px;
+}
+
+#horizontal_carousel ul
+{
+	height:106px;
+	left:0;
+	margin:0;
+	padding:0;
+	position:relative;
+	top:0;
+	width:100000px;
+}
+* html #horizontal_carousel .container
+{
+	float:left;
+	height:105px;
+	margin-left:40px;
+	overflow:hidden;
+	position:relative;
+	width:762px;
+}
+
+
+/*
+===================================================== Home Page - Main Content   ======*/
+
+#home_agent_inner
+{
+	background:#f7f7f7;
+	border:0px solid #ebebeb;
+	height:180px;
+	margin-bottom:10px;
+	margin-top:10px;
+    width:370px;
+    padding-right:5px;
+}
+
+
+#home_calc_inner
+{
+	background:#f7f7f7;
+	border:0px solid #ebebeb;
+	height:180px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+
+
+
+

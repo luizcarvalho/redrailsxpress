@@ -1,0 +1,206 @@
+/* ==================================================================
+      Secure and Accessible PHP Contact Form v.2.0WP FLUID width
+   ALMOST-SPRING.CSS made by Mike Jolley - http://www.blue-anvil.com 
+   Designed and built to work with the Almost Spring WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+}
+
+#gb_form {
+  text-align : left;
+}
+
+#gb_form_div a {
+  color : #e58712;
+  text-decoration : none;
+}
+
+#gb_form_div a:hover {
+  color : #9bbb38;
+  text-decoration : none;
+  background-color : #fff;
+}
+
+#gb_form fieldset { 
+  border : 0;
+  margin-top : 5px;
+}
+
+#gb_form fieldset fieldset { 
+  border-top : 1px solid #e8e7d0;
+  border-bottom : 1px solid #e8e7d0;
+  background-color : #fafaf0;
+  margin-bottom : 15px;
+}
+
+#gb_form legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #9bbb38;
+  padding-bottom : 3px;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 1em;
+  color : #333;
+  margin-left : -10px;
+  padding-bottom : 10px;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+#gb_form_div .formhead small a {
+  font-size : .7em;
+  background-image : none;
+  display : inline;
+  padding : 0;
+  margin : 0;
+}
+
+#gb_form_div .main_formhead, #gb_form_div .formhead {
+  font-size : 1.2em;
+  color : #9bbb38;
+}
+
+#gb_form label { 
+  color : #333; 
+  margin-top : 5px;
+  margin-left : 0;
+}
+
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox { 
+  font-size:1em; 
+  color : #333; 
+  padding : 0; 
+  border : 1px solid #c1c0b5;
+  background-color : #fafaf0;
+  width : 60%;
+}
+
+#gb_form input.button:hover, #gb_form input.button:focus, 
+#gb_form input.button.hover, #gb_form input.button.focus {
+  background-color : #e58712;
+  color : #fff;
+}
+
+/* NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { 
+  color : #000;  
+  background-color : #e8e7d0;
+  cursor : text;
+}
+
+#gb_form input.short {
+  width : 6%;
+}
+
+#gb_form textarea.textbox {
+  width : 98%;
+  height : 160px;
+  line-height : 1.5em;
+}
+
+#gb_form select.med {
+  width : 60%;
+}
+
+#gb_form input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #669900;
+  border : 0;
+  padding : 0; 
+  margin : 0;
+  width : 10px;
+  height : 10px;
+}
+
+#gb_form input.button {
+  margin-top : 10px;
+  padding-right : 20px;
+  padding-left : 20px;
+  width : 35%;
+  float : right;
+  cursor : pointer;
+  color : #333;
+}
+
+span.error, span.success, #gb_form_div dt { 
+  color : #b96f17;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #9bbb38;
+}
+
+#gb_form small.whythis, #gb_form small.whythis a { 
+  font-size : .9em; 
+  text-decoration : none;
+  border : 0;
+  color : #e58712;
+}
+
+#gb_form small.whythis a span {
+  color : #fff;
+  font-family : arial, sans-serif;
+  padding : 1px 4px 1px 4px;
+}
+
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { 
+  text-decoration : none;
+  color : #9bbb38;
+}
+
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { 
+  border : 0;
+  color : #fff;
+  font-style : normal; 
+  padding-left : 20px;
+  background : #9bbb38 url(wp-gbcf_images/gm_arrow.gif) no-repeat left;
+}
+
+#gb_form p.creditline small {
+  font-family : arial, sans-serif;
+  clear : both; 
+  display : block;
+  text-align : right;
+  margin : 0;
+  padding : 25px 0 15px 0;
+  font-size : .8em;
+  letter-spacing : .0001em;
+  color : #777;
+}
+
+/* NOTE: .abbr class is for IE */
+.abbr { 
+  cursor : help; 
+  border-bottom : 1px dashed #999;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #333;
+}
+
+/* End ALMOST-SPRING CSS */

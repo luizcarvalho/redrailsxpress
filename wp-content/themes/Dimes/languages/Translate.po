@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: loop.php:18
+#: single.php:17
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: lib/widgets/tweets.php:56
+msgid "%s ago"
+msgstr ""
+
+#. Text in function
+#: loop.php:18
+#: single.php:17
+msgid "1 Comment"
+msgstr ""
+
+#. Text in function
+#: comments.php:21
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#. Text in function
+#: loop.php:82
+msgid "<span>&laquo;</span> Older posts"
+msgstr ""
+
+#. Text in function
+#: lib/widgets/banners-125.php:1
+msgid "Add 125x125 banners."
+msgstr ""
+
+#. Text in function
+#: lib/widgets/social-connect.php:1
+msgid "Add links/buttons to your social network profiles."
+msgstr ""
+
+#. Text in function
+#: lib/widgets/social-share.php:1
+msgid "Add social network sharing icons. Uses AddThis.com"
+msgstr ""
+
+#. Text in function
+#: lib/widgets/posts.php:1
+msgid "Advanced widget for displaying the recent posts or posts from the selected categories or tags."
+msgstr ""
+
+#. Text in function
+#: lib/widgets/comments.php:1
+msgid "Advanced widget for displaying the recent posts with avatars"
+msgstr ""
+
+#. Text in function
+#: lib/widgets/tweets.php:1
+msgid "Advanced widget for displaying the recent tweets"
+msgstr ""
+
+#. Text in echo
+#: footer.php:12
+msgid "All Rights Reserved."
+msgstr ""
+
+#. Text in function
+#: lib/widgets/tabs.php:1
+msgid "Allows you to add multiple widgets in tabs. "
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/comments.php:142
+msgid "Author"
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/comments.php:144
+msgid "Avatar"
+msgstr ""
+
+#. Text in echo
+#: archive.php:4
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/tabs.php:106
+#: lib/widgets/posts.php:75
+msgid "By"
+msgstr ""
+
+#. Text in function
+#: archive.php:4
+msgid "Category: <span>%s</span>"
+msgstr ""
+
+#. Text in function
+#: lib/widgets/infobox.php:1
+msgid "Highlight a product or service with a custom image."
+msgstr ""
+
+#. Text in function
+#: comments.php:22
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Text in function
+#: loop.php:83
+msgid "Newer posts <span>&raquo;</span>"
+msgstr ""
+
+#. Text in function
+#: loop.php:18
+#: single.php:17
+msgid "No comments"
+msgstr ""
+
+#. Text in echo
+#: loop.php:59
+msgid "No results were found for the requested archive."
+msgstr ""
+
+#. Text in echo
+#: lib/Themater.php:1
+msgid "Not Found"
+msgstr ""
+
+#. Text in function
+#: lib/Themater.php:1
+msgid "Page %s"
+msgstr ""
+
+#. Text in function
+#: loop-page.php:23
+#: single.php:36
+msgid "Pages:"
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/tabs.php:125
+#: lib/widgets/posts.php:96
+msgid "Permalink to "
+msgstr ""
+
+#. Text in function
+#: loop.php:10
+#: loop.php:44
+msgid "Permalink to %s"
+msgstr ""
+
+#. Text in echo
+#: single.php:44
+msgid "Posted in:"
+msgstr ""
+
+#. Text in function
+#: lib/menu-primary.php:1
+msgid "Primary Menu"
+msgstr ""
+
+#. Text in function
+#: functions.php:1
+msgid "Primary Sidebar"
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/tabs.php:125
+#: lib/widgets/posts.php:96
+msgid "Read More &raquo;"
+msgstr ""
+
+#. Text in echo
+#: search.php:4
+msgid "Search Results for:"
+msgstr ""
+
+#. Text in function
+#: lib/Themater.php:1
+msgid "Search results for %s"
+msgstr ""
+
+#. Text in function
+#: lib/menu-secondary.php:1
+msgid "Secondary Menu"
+msgstr ""
+
+#. Text in function
+#: search.php:10
+msgid "Sorry, but nothing matched your search criteria: %s. Please try again with some different keywords."
+msgstr ""
+
+#. Text in function
+#: single.php:46
+msgid "Tags:"
+msgstr ""
+
+#. Text in echo
+#: lib/widgets/comments.php:143
+msgid "The Comment"
+msgstr ""
+
+#. Text in echo
+#: 404.php:6
+msgid "The page you requested could not be found."
+msgstr ""
+
+#. Text in function
+#: functions.php:1
+msgid "The primary sidebar widget area"
+msgstr ""
+
+#. Text in function
+#: lib/sidebar-primary.php:2
+msgid "The primary sidebar widget area. <a href=\"%s\">Click here</a> to add some widgets now."
+msgstr ""
+
+#. Text in echo
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""

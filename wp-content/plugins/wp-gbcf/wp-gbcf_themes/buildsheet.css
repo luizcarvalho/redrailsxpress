@@ -1,0 +1,208 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FLUID width
+    BUILDSHEET.CSS made by Mike Cherim - http://green-beast.com 
+   Designed and built to work with the Buildsheet WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+  width : 99%;
+}
+
+#gb_form {
+  text-align : left;
+  background : transparent;
+}
+
+#gb_form_div a {
+  color : #999;
+  text-decoration : none;
+}
+
+#gb_form_div a:hover, #gb_form_div a:focus, #gb_form_div a:active {
+  color : #fff;
+  text-decoration : none;
+  background-color : #000;
+}
+
+fieldset { 
+  border : 0;
+  margin-top : 10px;
+}
+
+legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #ccc;
+}
+
+legend {
+  margin-left : -10px;
+  padding-top : 5px;
+}
+
+legend#mainlegend { 
+  font-size : 1.1em;
+  color : #eecc11;
+  margin-left : -10px;
+  padding-top : 5px;
+  padding-bottom : 10px;
+}
+
+legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+.formhead small a {
+  font-size : .7em;
+  display : inline;
+  padding : 0;
+  margin : 0;
+  background-image : none;
+}
+
+.main_formhead, .formhead {
+  font-size : 1.2em;
+  color : #ccc;
+  width : 101%;
+}
+
+label { 
+  color : #eecc11; 
+  margin-top : 5px;
+  margin-left : 0;
+}
+
+input.short, input#s, input.med, select.med, textarea.textbox { 
+  font : 1em verdana, arial, sans-serif; 
+  color : #333; 
+  padding : 2px; 
+  border : 1px solid #eecc11;
+  background-color : #aaa;
+  width : 70%;
+  font-size : 1.1em;
+  height : auto;
+}
+
+input.short {
+  width : 12%;
+  padding : 2px; 
+}
+
+textarea, textarea.textbox {
+  width : 98%;
+  height : 220px;
+  line-height : 1.5em;
+  padding : 2px; 
+}
+
+select.med {
+  width : auto;
+  max-width : 70%;
+  padding : 2px; 
+}
+
+input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #eecc11;
+  border : 0;
+  padding : 0; 
+  margin : 0;
+  width : 10px;
+  height : 10px;
+}
+
+/* NOTE: .hover and .focus classes IE JS */
+input.short:hover, input.short:focus, 
+input.short.hover, input.short.focus,
+input#s:hover, input#s:focus, 
+input#s.hover, input#s.focus,
+input.med:hover, input.med:focus, 
+input.med.hover, input.med.focus,
+select.med:hover, select.med:focus, 
+select.med.hover, select.med.focus,
+textarea.textbox:hover, textarea.textbox:focus, 
+textarea.textbox.hover, textarea.textbox.focus { 
+  color : #000;  
+  padding : 2px; 
+  border : 1px solid #fff;
+  background-color : #ddd;
+  cursor : text;
+}  
+
+span.error, span.success, #gb_form_div dt { 
+  color : #cc0000;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #999;
+}
+
+small.whythis, small.whythis a { 
+  font-size : .9em; 
+  text-decoration : none;
+  border : 1px solid #000;
+  color : #ccc;
+  letter-spacing : 0.00001em;
+  border : 0;
+}
+
+small.whythis a span {
+  color : #000;
+  font-family : arial, sans-serif;
+  padding : 1px 2px 1px 2px;
+  text-decoration : none;
+  border : 0;
+}
+
+small.whythis a:hover, small.whythis a:focus, small.whythis a:active { 
+  text-decoration : none;
+  color : #000;
+  border : 0;
+}
+
+small.whythis a:hover span, small.whythis a:focus span, small.whythis a:active span { 
+  border : 1px solid #000;
+  background-color : #eecc11;
+  color : #000;
+  font-style : normal; 
+}
+
+p.creditline small {
+  font-family : arial, sans-serif;
+  clear : both; 
+  display : block;
+  text-align : right;
+  margin : 0;
+  padding : 25px 0 15px 0;
+  font-size : .7em;
+  letter-spacing : .00001em;
+  color : #777;
+}
+
+/* NOTE: .abbr class is for IE */
+
+dl#result_dl_blockq blockquote, dl.result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite, dl.result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #ccc;
+}
+
+#gb_form_div small {
+  font-family : arial, sans-serif;
+  font-size : .7em;
+  color : #777;
+}
+
+
+/* End BUILDSHEET CSS */

@@ -1,0 +1,40 @@
+
+a, a:active, a:focus {
+	color: #ffffff;
+}
+
+a:hover {
+	color: #CCCCCC;
+}
+
+.button {
+	background: url(images/grad1.gif) repeat-x center #7e407d;
+}
+
+.dropcap {
+	color: #7e407d;
+}
+
+.highlight {
+	background: #7e407d;
+}
+
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus {
+	color: #7e407d;
+}
+
+#active_menu {
+	color: #7e407d;
+}
+
+
+#topsl a:hover,
+#topsl a:active,
+#topsl a:focus,
+#botsl a:hover,
+#botsl a:active,
+#botsl a:focus {
+	color: #ffffff;
+}

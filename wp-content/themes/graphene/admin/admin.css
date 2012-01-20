@@ -1,0 +1,238 @@
+.form-table th {
+	width: 260px;
+}
+.wrap h3 {
+	margin: 30px 0 10px 0;
+}
+.wrap h4 {
+	margin: 20px 0 0 0;
+}
+table.graphene-code-example th {
+	font-weight: normal;
+	line-height: 18px;
+	text-align: left;
+}
+.postbox .hndle {
+	cursor: pointer;
+	font-size: 13px;
+	margin: 0;
+	padding: 6px 10px 7px 10px;
+}
+.panel-wrap.inside {
+	padding: 0 10px 10px 10px;
+}
+.handlediv {
+	cursor: pointer;
+}
+.code {
+	font: normal 12px "Courier New", Courier, monospace;
+}
+.left-wrap {
+	float: left;
+	width: 70%;
+}
+.left-wrap label {
+	line-height: normal;
+}
+.side-wrap {
+	float: left;
+	margin-left: 10px;
+	width: 25%;
+}
+.postbox.donation .hndle {
+	cursor: auto;
+}
+.postbox small {
+	display: block;
+	line-height: 18px;
+	margin-top: 5px;
+}
+.code {
+	font: normal 12px "Courier New", Courier, monospace;
+}
+.select-multiple {
+	height: 200px !important;
+	overflow: scroll;
+}
+.options-tab {
+	border-bottom: 1px solid #ccc;
+	height: 27px;
+	margin-bottom: 20px !important;
+	padding-left: 5px !important;
+}
+.options-tab a,
+.options-tab a:visited {
+	display: block;
+	float: left;
+}
+#wpcontent option {
+	padding: 4px;
+}
+.column-options label img {
+	padding-right: 30px;
+	vertical-align: middle;
+}
+.form-table .delete a, .form-table .delete a:visited{
+	color: #BC0B0B;
+	text-decoration: none;
+}
+.form-table .delete a:hover{
+	text-decoration: underline;
+}
+tr.new-social-media, tr.social-media-custom{
+	background: #eee;
+}
+tr.new-social-media-name, tr.social-media-custom-name{
+	border-top: 1px solid #fff;
+}
+.toggle-all, .toggle-all:visited{
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12px;
+	padding-top: 5px;
+}
+.cc-logo{
+	display: block;
+	height: 32px;
+	width: 96px;
+	background: url(../images/sprite_master.png) -417px -240px no-repeat;
+	margin-top: 5px;
+}
+
+.add-ons .title{
+	font-weight: bold;
+}
+.add-ons .activated{
+	color: #2A7FFF;
+}
+.add-ons .not-active{
+	color: #999;	
+}
+.colorpicker{
+	background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #CCCCCC;
+    position: absolute;
+    z-index: 100;	
+}
+
+.sidebar h3 {
+	background: url(images/bg-sidebar-h3.png) left bottom repeat-x #3C9CD2;
+	background: -moz-linear-gradient(#3C9CD2, #1F6EB6);
+	background: -webkit-linear-gradient(#3C9CD2, #1F6EB6);
+	background: linear-gradient(#3C9CD2, #1F6EB6);
+	border-bottom: 1px solid #195392;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	padding: 7px 12px;
+	font: bold 16px/20px arial;
+	text-shadow: 0 -1px 0 #555;
+	width: 100%;
+	margin: -15px 0 5px -12px;
+	box-shadow: none;
+}
+.sidebar h3:hover{
+	color: #fff;
+	cursor: default;
+}
+.sidebar div.sidebar-wrap {
+	background: #fff;
+	border: 1px solid #ccc;
+	-moz-box-shadow: 0 0 5px #BBB;
+	-webkit-box-shadow: 0 0 5px #BBB;
+	box-shadow: 0 0 5px #BBB;
+	margin-bottom: 16px;
+	padding: 10px 12px;
+	position: relative;
+	width: 220px;
+}
+.sidebar ul {
+	color: #000;
+	font: normal 12px arial;
+	margin: 0;
+}
+.sidebar ul li {
+	border-bottom: 1px solid #e3e3e3;
+	line-height: 15px;
+	padding: 6px 0;
+}
+
+.graphene, .graphene li, .graphene p{
+	color: #2c2b2b;	
+}
+.graphene a,
+.graphene a:visited{
+	color: #1772af;
+	text-decoration: none;
+}
+.graphene a:hover{
+	color: #074d7c;
+	text-decoration: none;	
+}
+#grad-box{
+	width:230px;
+	height:100px;
+	background: #0F2D4D;
+	background: linear-gradient(left top, #0F2D4D, #2880C3);
+	background: -moz-linear-gradient(left top, #0F2D4D, #2880C3);
+	background: -webkit-linear-gradient(left top, #0F2D4D, #2880C3);
+}
+
+.block-button,
+.block-button:visited,
+.Button {
+	background: url(images/bg-block-button.png) left bottom repeat-x #1C5FA5;
+	background: -moz-linear-gradient(#2982C5, #1C5FA5);
+	background: -webkit-linear-gradient(#2982C5, #1C5FA5);
+	background: linear-gradient(#2982C5, #1C5FA5);
+	border: 1px solid #1C5FA5;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0 0 5px #555;
+	-webkit-box-shadow: 0 0 5px #555;
+	box-shadow: 0 0 5px #555;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	float: left;
+	font: bold 12px arial;
+	padding: 5px 15px 6px;
+	position: relative;
+	text-decoration: none;
+	text-shadow: 0 -1px 1px #444;
+}
+.block-button:hover {
+	background: url(images/bg-block-button-hover.png) left bottom repeat-x #1C5FA5;
+	background: -moz-linear-gradient(#2982C5, #15467A);
+	background: -webkit-linear-gradient(#2982C5, #15467A);
+	background: linear-gradient(#2982C5, #15467A);
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.archive-title-preview {
+	width: 500px;
+}
+.page-title {
+	background: #2070B7;
+	background: linear-gradient(left top, #0F2D4D, #2880C3);
+	background: -moz-linear-gradient(left top, #0F2D4D, #2880C3);
+	background: -webkit-linear-gradient(left top, #0F2D4D, #2880C3);
+	-pie-background: linear-gradient(left top, #0F2D4D, #2880C3);
+	color: #e3e3e3;
+	font-size: 16px;
+	margin: 0 auto 10px;
+	padding: 8px 0;
+	text-align: center;
+	text-shadow: 0 -1px 0 #333;
+	display: block;
+	font-weight: bold;
+}
+.page-title span {
+	color: #fff;
+}
+
+.hide { display: none; }

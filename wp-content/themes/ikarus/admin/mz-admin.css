@@ -1,0 +1,126 @@
+#custom-wrap {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+}
+
+
+#custom-container {
+	width: 900px;
+	margin: 0px;
+	float: left;
+	padding-bottom: 2em;
+}
+#live-theme-preview {
+	margin: 0px;
+	padding: 2em 0px 0px;
+	float: left;
+	width: 900px;
+}
+#live-theme-preview h2 {
+	font-size: 1.5em;
+	line-height: 24px;
+	color: #000000;
+	background: url(none);
+	border-bottom: 1px solid #CCCCCC;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	float: left;
+	width: 90%;
+}
+#live-theme-preview iframe {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 350px;
+	width: 950px;
+}
+
+#notes {
+	margin: 0px;
+	padding: 10px;
+	width: 880px;
+	float: left;
+}
+#notes h3 {
+	font-size: 1.375em;
+	line-height: 18px;
+	color: #990000;
+	margin: 0px 0px 5px;
+	padding: 0px;
+}
+#notes p {
+	margin: 0px 0px 5px;
+	padding: 0px;
+	font-size: 0.9375em;
+	line-height: 17px;
+	color: #333333;
+	float: left;
+	width: 880px;
+}
+#footer {
+	clear: both;
+	text-align: center;
+}
+.pwrap {
+	margin: 0px 0px 1em;
+	padding: 0px;
+	float: left;
+	width: 880px;
+}
+.pwrap em {
+	font-size: 11px;
+	font-style: italic;
+	color: #666666;
+}
+#option-mz-form {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 900px;
+}
+.option-box {
+	margin: 0px;
+	padding: 10px;
+	float: left;
+	width: 880px;
+}
+#option-mz-form h5 {
+	font-size: 1.375em;
+	line-height: 20px;
+	color: #990000;
+	background: url(none);
+	margin: 0px 0px 10px;
+	padding: 0px 0px 4px;
+	float: left;
+	width: 880px;
+	font-family: Georgia, "Times New Roman", Helvetica, sans-serif;
+	border-bottom: 1px solid #E0E0E0;
+}
+.option-box p {
+	display: inline;
+	margin: 0px 8px 0px 0px;
+	padding: 0px;
+	float: left;
+	font-size: 1em;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
+	width: 400px;
+}
+.ops-select {
+	background: #FFFFFF;
+	margin: 0px;
+	padding: 1px;
+	width: 300px;
+	border: 1px solid #CCCCCC;
+}
+.saveme {
+	background: #CCCCCC;
+	height: 40px;
+	width: 200px;
+	font-family: "Trebuchet MS", "Times New Roman", Tahoma;
+	font-size: 20px;
+	font-weight: bold;
+}

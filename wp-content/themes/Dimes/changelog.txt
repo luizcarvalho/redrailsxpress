@@ -1,0 +1,5 @@
+2011-10-22 - Version 2.0 
+* Minor bug fixes and added changelog.txt and readme.txt
+
+2011-03-31 - Version 1.0
+* Initial theme release!

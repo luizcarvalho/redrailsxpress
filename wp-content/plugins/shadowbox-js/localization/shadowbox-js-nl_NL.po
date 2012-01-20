@@ -1,0 +1,518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shadowbox-js\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-29 08:42-0500\n"
+"PO-Revision-Date: 2009-10-29 08:43-0500\n"
+"Last-Translator: Matt Martz <matt@sivel.net>\n"
+"Language-Team: werkgroepen.net <team@werkgroepen.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /var/www/stable/wp-content/plugins/shadowbox-js/\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin.php:116
+#: inc/admin.php:588
+msgid "Show Advanced Configuration"
+msgstr "Toon uitgebreide instellingen"
+
+#: inc/admin.php:117
+#, fuzzy
+msgid "Hide Advanced Configuration"
+msgstr "Uitgebreide instellingen"
+
+#: inc/admin.php:118
+msgid "Do you agree that you are not using FLV support for commercial purposes or have already purchased a license for JW FLV Media Player?"
+msgstr ""
+
+#: inc/admin.php:453
+#: inc/admin.php:497
+msgid "Shadowbox JS"
+msgstr "Shadowbox JS"
+
+#: inc/admin.php:467
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/admin.php:505
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/admin.php:506
+msgid "These are general options for the Shadowbox Javascript that tell Shadowbox how to run, how to look and what language to use."
+msgstr "Dit zijn de algemene instellingen voor het Shadowbox Javascript wat de plugin vertelt hoe het moet werken, getoond wordt en welke taal gebruikt wordt"
+
+#: inc/admin.php:510
+msgid "Javascript Library"
+msgstr "Javascript Library"
+
+#: inc/admin.php:514
+msgid "None"
+msgstr "Geen"
+
+#: inc/admin.php:523
+msgid "Default is None."
+msgstr "Standaard is geen"
+
+#: inc/admin.php:528
+msgid "Language"
+msgstr "Taal"
+
+#: inc/admin.php:538
+msgid "Default is en."
+msgstr "Standaard is en (Engels)"
+
+#: inc/admin.php:544
+msgid "Enable Smart Loading"
+msgstr "Inschakelen slim laden"
+
+#: inc/admin.php:548
+#: inc/admin.php:579
+#: inc/admin.php:596
+#: inc/admin.php:609
+#: inc/admin.php:636
+#: inc/admin.php:649
+#: inc/admin.php:692
+#: inc/admin.php:705
+#: inc/admin.php:748
+#: inc/admin.php:761
+#: inc/admin.php:774
+#: inc/admin.php:847
+#: inc/admin.php:880
+#: inc/admin.php:893
+#: inc/admin.php:906
+#: inc/admin.php:953
+#: inc/admin.php:966
+#: inc/admin.php:979
+#: inc/admin.php:992
+#: inc/admin.php:1036
+#: inc/admin.php:1047
+msgid "true"
+msgstr "true"
+
+#: inc/admin.php:549
+#: inc/admin.php:580
+#: inc/admin.php:597
+#: inc/admin.php:610
+#: inc/admin.php:637
+#: inc/admin.php:650
+#: inc/admin.php:693
+#: inc/admin.php:706
+#: inc/admin.php:749
+#: inc/admin.php:762
+#: inc/admin.php:775
+#: inc/admin.php:848
+#: inc/admin.php:881
+#: inc/admin.php:894
+#: inc/admin.php:907
+#: inc/admin.php:954
+#: inc/admin.php:967
+#: inc/admin.php:980
+#: inc/admin.php:993
+#: inc/admin.php:1035
+#: inc/admin.php:1046
+msgid "false"
+msgstr "false"
+
+#: inc/admin.php:552
+msgid "Enabling this will only load Shadowbox and its dependencies when needed based on the content of your posts.\tPlease note that when enabling this Shadowbox will not be loaded if rel=\"shadowbox\" is not found in the content of your post(s).  If you experience problems after enabling this, try disabling. Default is false."
+msgstr "Dit inschakelen zal  Shadowbox alleen gebruiken wanneer het nodig is, gebaseerd op de berichten die je geplaatst hebt. \tOpmerking: Shadowbox zal niet gebruikt worden als rel=\"shadowbox\" niet wordt gevonden in de inhoud van je bericht(en). Ondervind je problemen, schakel het dan uit. "
+
+#: inc/admin.php:558
+msgid "Players"
+msgstr "Players"
+
+#: inc/admin.php:570
+msgid "The list of enabled or disabled players. Default is HTML, IFRAME, IMG, QT, SWF and WMP."
+msgstr "De lijst van inschakelede of uitgeschakelde players. Standaard is  HTML, IFRAME, IMG, QT, SWF en WMP."
+
+#: inc/admin.php:575
+msgid "Enable FLV Support"
+msgstr "Inschakelen FLV ondersteuning"
+
+#: inc/admin.php:583
+msgid "By enabling FLV support you are agreeing to the the <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">noncommercial license</a> used by JW FLV Media Player. The JW FLV Media Player is licensed under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>. After enabling FLV support you will need to select FLV from the list of players above. Default is false."
+msgstr "Door FLV ondersteuning in te schakelen ga je akkoord met de <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">niet commerci&#235;le licentie</a> gebruikt door JW FLV Media Player. De JW FLV Media Player valt onder de licentie van <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>. Nainschakelen van FLV ondersteuning is het nodig om FLV te selecteren in de lijst players hierboven. Standaard is false."
+
+#: inc/admin.php:587
+msgid "Advanced Configuration"
+msgstr "Uitgebreide instellingen"
+
+#: inc/admin.php:592
+msgid "Animate"
+msgstr "Animaties"
+
+#: inc/admin.php:600
+msgid "Set this false to disable all fancy animations (except fades). This can improve the overall effect on computers with poor performance. Defaults to true."
+msgstr "Stel dit in op false om alle animaties (behalve vervagen) uit te schakelen. Dit kan het effect verbeteren op computers met een trage verbinding. Standaard is true."
+
+#: inc/admin.php:605
+msgid "Fade Animations"
+msgstr "Animaties vervagen"
+
+#: inc/admin.php:613
+msgid "Set this false to disable all fading animations. Defaults to true."
+msgstr "Stel dit in op false om het vervagen van alle animaties uit te schakelen. Standaard op true."
+
+#: inc/admin.php:618
+msgid "Animation Sequence"
+msgstr "Herberekenen animaties"
+
+#: inc/admin.php:627
+msgid "The animation sequence to use when resizing Shadowbox. May be either \"wh\" (width first, then height), \"hw\" (height first, then width), or \"sync\" (both simultaneously). Defaults to \"sync\"."
+msgstr "Het herberekenen van animaties welke Shadowbox moet gebruiken. Het kan zowel \"wh\" (breedte eerst, dan hoogte), \"hw\" (hoogte eerst, dan breedte), of \"sync\" (in verhouding). Standaard op \"sync\"."
+
+#: inc/admin.php:632
+msgid "Modal"
+msgstr "Geluid"
+
+#: inc/admin.php:640
+msgid "Set this true to disable listening for mouse clicks on the overlay that will close Shadowbox. Defaults to false."
+msgstr "Stel dit in op true om het geluid van muisklikken uit te schakelen op de overlay dat Shadowbox zal sluiten. Standaard op false."
+
+#: inc/admin.php:645
+msgid "Show Overlay"
+msgstr "Toon overlay"
+
+#: inc/admin.php:653
+msgid "Set this false to disable showing the overlay. Defaults to true."
+msgstr "Stel dit in op false om het tonen van de overlay uit te schakelen. Standaard op true."
+
+#: inc/admin.php:658
+msgid "Overlay Color"
+msgstr "Overlay kleur"
+
+#: inc/admin.php:663
+msgid "The color to use for the modal overlay (in hex). Defaults to \"#000\"."
+msgstr "De kleur om te gebruiken voor de overlay (in hex). Standaard op \"#000\"."
+
+#: inc/admin.php:668
+msgid "Overlay Opacity"
+msgstr "Overlay doorschijnendheid"
+
+#: inc/admin.php:673
+msgid "The opacity to use for the modal overlay. Defaults to 0.8."
+msgstr "De doorschijnendheid om te gebruiken voor de overlay. Standaard op 0.8."
+
+#: inc/admin.php:678
+msgid "Flash Background Color"
+msgstr "Flash achtergrondkleur"
+
+#: inc/admin.php:683
+msgid "The default background color to use for Flash movies. Defaults to \"#000000\"."
+msgstr "De standaard achtergrondkleur om te gebruiken voor Flash filmpjes. Standaard op \"#000000\"."
+
+#: inc/admin.php:688
+msgid "Auto-Play Movies"
+msgstr "Automatisch afspelen filmpjes"
+
+#: inc/admin.php:696
+msgid "Set this false to disable automatically playing movies when they are loaded. Defaults to true."
+msgstr "Stel dit in op false om automatisch afspelen van filmpjes uit te schakelen als ze geladen zijn. Standaard op true."
+
+#: inc/admin.php:701
+msgid "Show Movie Controls"
+msgstr "Afspeelknoppen"
+
+#: inc/admin.php:709
+msgid "Set this false to disable displaying QuickTime and Windows Media player movie control bars. Defaults to true."
+msgstr "Stel dit in op false om het tonen van de bedieningsknoppen van Quicktimen en Windows Media player uit te schakelen. Standaard op true."
+
+#: inc/admin.php:714
+msgid "Slideshow Delay"
+msgstr "Slideshow vertraging"
+
+#: inc/admin.php:719
+msgid "A delay (in seconds) to use for slideshows. If set to anything other than 0, this value determines an interval at which Shadowbox will automatically proceed to the next piece in the gallery. Defaults to 0."
+msgstr "Een vertraging )in seconden' om te gebruiken voor slideshows. Als het ingesteld wordt op anders dan 0, zal de intervaltijd voor de volgende afbeelding anders worden dan welke automatisch is ingesteld door Shadowbox. Standaard is 0."
+
+#: inc/admin.php:724
+msgid "Resize Duration"
+msgstr "Tijd herberekenen"
+
+#: inc/admin.php:729
+msgid "The duration (in seconds) of the resizing animations. Defaults to 0.55."
+msgstr "De tijd (in secenoden) om animaties te herberekenen. Standaard op 0.55."
+
+#: inc/admin.php:734
+msgid "Fade Duration"
+msgstr "Tijd vervagen"
+
+#: inc/admin.php:739
+msgid "The duration (in seconds) of the fade animations. Defaults to 0.35."
+msgstr "De tijd (in seconden) om animaties te vervagen. Standaard op 0.35."
+
+#: inc/admin.php:744
+msgid "Display Navigation"
+msgstr "Tonen navigatie"
+
+#: inc/admin.php:752
+msgid "Set this false to hide the gallery navigation controls. Defaults to true."
+msgstr "Stel dit in op false om de gallery navigatie te verbergen. Standaard op true."
+
+#: inc/admin.php:757
+msgid "Continuous"
+msgstr "Doorgaan"
+
+#: inc/admin.php:765
+msgid "Set this true to enable \"continuous\" galleries. By default, the galleries will not let a user go before the first image or after the last. Enabling this feature will let the user go directly to the first image in a gallery from the last one by selecting \"Next\". Defaults to false."
+msgstr "Stel dit in op true om \"doorgaan\" van galleries in te schakelen. Standaard, de galleries zullen een gebruiker niet laten gaan voor de eerste afbeelding of na de laatste. Inschakelen van deze mogelijkheid laat de gebruiker direct naar de eerste afbeelding van een gallery gaan vanaf de laatste door \"Volgende\" te selecteren. Standaard op false."
+
+#: inc/admin.php:770
+msgid "Display Counter"
+msgstr "Teller tonen"
+
+#: inc/admin.php:778
+msgid "Set this false to hide the gallery counter. Counters are never displayed on elements that are not part of a gallery. Defaults to true."
+msgstr "Stel dit in op false om de gallery teller te verbergen. Tellers worden nooit getoond op elemaenten die geen deel van de gallery zijn. Standaard op true."
+
+#: inc/admin.php:783
+msgid "Counter Type"
+msgstr "Teller type"
+
+#: inc/admin.php:787
+msgid "default"
+msgstr "standaard"
+
+#: inc/admin.php:788
+msgid "skip"
+msgstr "onderbreek"
+
+#: inc/admin.php:791
+msgid "The mode to use for the gallery counter. May be either \"default\" or \"skip\". The default counter is a simple \"1 of 5\" message. The skip counter displays a separate link to each piece in the gallery, enabling quick navigation in large galleries. Defaults to \"default\"."
+msgstr "De modus om te gebruiken voor de gellery teller. Mag zowel \"standaard\" als \"onderbreklen\" zijn. De standaard teller is een eenvoudig \"1 van 5\" bericht. De onderbreek teller toont een aparte link naar elke afbeelding in de gallery, en schakelt snelle navigatie in bij grote galleries.  Standaard op \"standaard\"."
+
+#: inc/admin.php:796
+msgid "Counter Limit"
+msgstr "Teller limiet"
+
+#: inc/admin.php:801
+msgid "Limits the number of counter links that will be displayed in a \"skip\" style counter. If the actual number of gallery elements is greater than this value, the counter will be restrained to the elements immediately preceding and following the current element. Defaults to 10."
+msgstr "Limiteert het aantal teller links welke worden getoond in een \"onderbreek\" style teller. Als het actuele aantal van gallery elementen groter is dan de waarde, zal deze onmiddellijk worden bijgesteld vanaf het huidige element. Standaard op 10."
+
+#: inc/admin.php:806
+msgid "Viewport Padding"
+msgstr "Viewport Padding"
+
+#: inc/admin.php:811
+msgid "The amount of padding (in pixels) to maintain around the edge of the browser window. Defaults to 20."
+msgstr "De waarde van padding (in pixels) om te gebruiken rond het venster van de browser. Standaard op 20.<br />Padding is ruimte tussen het tonen van de animaties ten opzichte van het venster van de browser."
+
+#: inc/admin.php:816
+msgid "Handle Oversize"
+msgstr "Te grote afbeeldingen"
+
+#: inc/admin.php:820
+msgid "none"
+msgstr "geen"
+
+#: inc/admin.php:821
+msgid "resize"
+msgstr "herberekenen"
+
+#: inc/admin.php:822
+msgid "drag"
+msgstr "slepen"
+
+#: inc/admin.php:825
+msgid "The mode to use for handling content that is too large for the viewport. May be one of \"none\", \"resize\", or \"drag\" (for images). The \"none\" setting will not alter the image dimensions, though clipping may occur. Setting this to \"resize\" enables on-the-fly resizing of large content. In this mode, the height and width of large, resizable content will be adjusted so that it may still be viewed in its entirety while maintaining its original aspect ratio. The \"drag\" mode will display an oversized image at its original resolution, but will allow the user to drag it within the view to see portions that may be clipped. Defaults to \"resize\"."
+msgstr "Als de afbeeldingen te groot zijn voor de viewport. Kan \"geen\", \"herberekenen\", of \"slepen\"  zijn. De \"geen\" instelling zal de afbeeldings dimensies niet aanpassen, wat knippen en plakken niet mogelijk maakt. Instellen op \"herberekenen\" past de afbeelding direct aan als deze te groot is in de juiste proporties. De  \"sleep\" instelling toont een te grote afbeelding in de originele resolutie, maar staat de gebruiker toe om het te slepen in de viewport en kan geknipt worden. Standaard op \"herberekenen\"."
+
+#: inc/admin.php:830
+msgid "Handle Unsupported"
+msgstr "Niet ondersteunde animaties"
+
+#: inc/admin.php:834
+msgid "link"
+msgstr "link"
+
+#: inc/admin.php:835
+msgid "remove"
+msgstr "verwijderen"
+
+#: inc/admin.php:838
+msgid "The mode to use for handling unsupported media. May be either \"link\" or \"remove\". Media are unsupported when the browser plugin required to display the media properly is not installed. The link option will display a user-friendly error message with a link to a page where the needed plugin can be downloaded. The remove option will simply remove any unsupported gallery elements from the gallery before displaying it. With this option, if the element is not part of a gallery, the link will simply be followed. Defaults to \"link\"."
+msgstr "Wat te doen bij niet ondersteunde media. Kan \"link\" of \"verwijderen\" zijn. Media is niet ondersteund als de browser een plugin vereist de media te tonen die niet is ge&#239;nstalleerd bij de bezoeker. De link intelling toont een gebruiker vriendelijke foutmelding met een link naar een pagina waar deze plugin gedownload kan worden. De verwijder instelling zal eenvoudig niet ondersteunde gallery elementen van de gallery verwijderen voor deze worden getoond aan de gebruiker. Met deze instelling, als het element geen deel van een gallery is, wordt de link eenvoudig gevolgd. Standaard op \"link\"."
+
+#: inc/admin.php:843
+msgid "Auto Dimensions"
+msgstr "Automatische dimensies"
+
+#: inc/admin.php:851
+msgid "Set this true to automatically set the initialHeight and initialWidth automatically from the configured object's height and width. Defaults to false."
+msgstr "Stel dit in op true om automatisch initialHeight en initialWidth ( aanvankelijke hoogte en breedte) in te stellen van de objecten. Standaard op false."
+
+#: inc/admin.php:856
+msgid "Initial Height"
+msgstr "Aanvankelijke hoogte"
+
+#: inc/admin.php:861
+msgid "The height of Shadowbox (in pixels) when it first appears on the screen. Defaults to 160."
+msgstr "De hoogte van Shadowbox (in pixels) als het voor het eerst op het scherm verschijnt. Standaard op 160."
+
+#: inc/admin.php:866
+msgid "Initial Width"
+msgstr "Aanvankelijke breedte"
+
+#: inc/admin.php:871
+msgid "The width of Shadowbox (in pixels) when it first appears on the screen. Defaults to 320."
+msgstr "De breedte van Shadowbox (in pixels) als het voor het eerst op het scherm verschijnt. Standaard op 320."
+
+#: inc/admin.php:876
+msgid "Enable Keys"
+msgstr "Sneltoetsen inschakelen"
+
+#: inc/admin.php:884
+msgid "Set this false to disable keyboard navigation of galleries. Defaults to true."
+msgstr "Stel dit in op false om toetsenbord navigatie bij galleries uit te schakelen. Standaard op true."
+
+#: inc/admin.php:889
+msgid "Skip Setup"
+msgstr "Setup onderbreken"
+
+#: inc/admin.php:897
+msgid "Set this true to skip Shadowbox.setup() during Shadowbox.init(). For purposes of this plugin you will have to manually add Shadowbox.setup() to the footer of your theme. Defaults to false."
+msgstr "Stel dit in op true om de Shadowbox.setup() te onderbreken tijdens Shadowbox.init(). Standaard op false. Hiervoor zul je handmatig Shadowbox.setup() moeten toevoegen aan de footer van je thema."
+
+#: inc/admin.php:902
+msgid "Use Sizzle"
+msgstr "Gebruik Sizzle"
+
+#: inc/admin.php:910
+msgid "Set this true to enable loading the <a href=\"http://sizzlejs.com/\">Sizzle.js</a> CSS selector library. Note that if you choose not to use Sizzle you may not use CSS selectors to set up your links. In order to use Sizzle.js you must set Skip Setup to true. Defaults to false."
+msgstr "Stel dit in op true om <a href=\"http://sizzlejs.com/\">Sizzle.js</a> laden in te schakelen voor CSS selector library. Opmerking: Als je Sizzle niet wilt gebruiken, de CSS selectors niet kunt gebruiken om je links te setuppen. Om Sizzle.js te gebruiken moet je de instelling Setup onderbreken op true instellen. Standaard op false."
+
+#: inc/admin.php:915
+msgid "Flash Params"
+msgstr "Flash Parameters"
+
+#: inc/admin.php:920
+msgid "A list of parameters (in a JavaScript object) that will be passed to a flash &lt;object&gt;. For a partial list of available parameters, see <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_12701\">this page</a>. Only one parameter is specified by default: bgcolor. Defaults to {bgcolor:\"#000000\", allowFullScreen:true}."
+msgstr "Een lijst van parameters (in een JavaScript object) dat past in een flash  &lt;object&gt;.Voor een gedeeltelijke lijst van beschikbare parameters, bezoek <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_12701\">deze pagina</a>. Er is slechts 1 parameterstandaard gespecificeerd: bgcolor. Standaard op {bgcolor:\"#000000\", allowFullScreen:true}. (Wat inhoudt: achtergrondkleur zwart, volledig scherm toestaan)"
+
+#: inc/admin.php:925
+msgid "Flash Vars"
+msgstr "Flash Variabalen"
+
+#: inc/admin.php:930
+msgid "A list of variables (in a JavaScript object) that will be passed to a flash movie as <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_16417\">FlashVars</a>. Defaults to {}."
+msgstr "Een lijst van variabelen (in een JavaScript object) dat past in een flash filmpje als <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_16417\">FlashVars</a>. Standaard op {}."
+
+#: inc/admin.php:935
+msgid "Flash Version"
+msgstr "Flash versie"
+
+#: inc/admin.php:940
+msgid "The minimum Flash version required to play a flash movie (as a string). Defaults to \"9.0.0\"."
+msgstr "De minimale Flash versie die nodig is om een flash filmpje te spelen (als een strin) Standaard op \"9.0.0\"."
+
+#: inc/admin.php:944
+msgid "Shadowbox Automation"
+msgstr "Shadowbox automatiseren"
+
+#: inc/admin.php:945
+msgid "These options will give you the capability to have Shadowbox automatically used for all of a certain file type."
+msgstr "Deze instellingen geven je de mogelijkheid om Shadowbox automatisch te gebruiken voor alle bestaande bestand typen."
+
+#: inc/admin.php:949
+msgid "Image Links"
+msgstr "Afbeeldings links"
+
+#: inc/admin.php:957
+#: inc/admin.php:970
+#: inc/admin.php:983
+#: inc/admin.php:996
+msgid "Default is true."
+msgstr "Standaard is true."
+
+#: inc/admin.php:962
+msgid "Movie Links"
+msgstr "Film links"
+
+#: inc/admin.php:975
+msgid "Music Links"
+msgstr "Muziek links"
+
+#: inc/admin.php:988
+msgid "YouTube and Google Video Links"
+msgstr "YouTube en Google video links"
+
+#: inc/admin.php:1000
+msgid "Sizes"
+msgstr "Formaat (grootte)"
+
+#: inc/admin.php:1004
+msgid "YouTube / Google Video Width"
+msgstr "YouTube / Google Video Breedte"
+
+#: inc/admin.php:1009
+msgid "The width of Shadowbox (in pixels) when displaying YouTube or Google Video. Defaults to 640."
+msgstr "De breedte van Shadowbox (in pixels) als YouTube of Google Video&#39;s getoond worden. Standaard op 640."
+
+#: inc/admin.php:1014
+msgid "YouTube / Google Video Height"
+msgstr "YouTube / Google Video Hoogte"
+
+#: inc/admin.php:1019
+msgid "The height of Shadowbox (in pixels) when when displaying YouTube of Google Video. Defaults to 385."
+msgstr "De hoogte van Shadowbox (in pixels) als YouYube of Google Video &#39;s getoond worden. Standaard op 385."
+
+#: inc/admin.php:1024
+msgid "The settings for this plugin have been deleted. The plugin can now be"
+msgstr "De instellingen van deze plugin zijn verwijderd. De plugin in kan nu"
+
+#: inc/admin.php:1024
+msgid "Deactivate Shadowbox JS"
+msgstr "Deactiveer Shadowbox JS"
+
+#: inc/admin.php:1024
+msgid "deactivated"
+msgstr "gedeactiveerd"
+
+#: inc/admin.php:1024
+msgid "If you want to create the settings with their defaults so this plugin can be used again, set \"Reset to Defaults\" to \"true\" and click \"Save Changes\""
+msgstr "Als je de instellingen met hun standaarden voor deze plugin wilt bewaren zodat ze opnieuw gebruikt kunnen worden, stel dan \"Terugzetten naar standaards\" in op \"true\" en klik \"Wijzigingen bijwerken\""
+
+#: inc/admin.php:1026
+msgid "Resets"
+msgstr "Terugzetten"
+
+#: inc/admin.php:1027
+msgid "These options will allow you to revert the options back to their defaults or to remove the options from the database for a clean uninstall."
+msgstr "Deze instellingen geven de mogelijkheid om de instellingen terug naar hun standaards te zetten van de database voor een schone de&#239;nstallatie"
+
+#: inc/admin.php:1031
+msgid "Reset to Defaults"
+msgstr "Terugzetten naar standaards"
+
+#: inc/admin.php:1042
+msgid "Delete Options for a Clean Uninstall"
+msgstr "Verwijder instellingen voor een schone de&#239;nstallatie"
+
+#: inc/admin.php:1053
+msgid "Save Changes"
+msgstr "Wijzigingen bijwerken"
+
+#~ msgid "Settings saved as defaults"
+#~ msgstr "Instellingen opgeslagen als standaard"
+#~ msgid "Settings saved"
+#~ msgstr "Instellingen opgeslagen"
+#~ msgid ""
+#~ "Set this true to skip Shadowbox.setup() during Shadowbox.init(). Defaults "
+#~ "to false."
+#~ msgstr ""
+#~ "Stel dit in op true om de Shadowbox.setup() te onderbreken tijdens "
+#~ "Shadowbox.init(). Standaard op false."
+#~ msgid ""
+#~ "If you want to re-enable the options so this plugin can be used again, "
+#~ "set \"Reset to Defaults\" to \"true\" and click \"Save Changes\""
+#~ msgstr ""
+#~ "Als je de instellingen van deze plugin opnieuw wilt gebruiken, stel dan "
+#~ "\"Terugzetten naar standaards\" in op \"true\" en klik \"Wijzigingen "
+#~ "bijwerken\""
+

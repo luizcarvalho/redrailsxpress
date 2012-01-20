@@ -1,0 +1,496 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shadowbox-js\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-29 08:44-0500\n"
+"PO-Revision-Date: 2009-10-29 08:44-0500\n"
+"Last-Translator: Matt Martz <matt@sivel.net>\n"
+"Language-Team: Matt Martz <matt@sivel.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /var/www/stable/wp-content/plugins/shadowbox-js\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin.php:116
+#: inc/admin.php:588
+msgid "Show Advanced Configuration"
+msgstr ""
+
+#: inc/admin.php:117
+msgid "Hide Advanced Configuration"
+msgstr ""
+
+#: inc/admin.php:118
+msgid "Do you agree that you are not using FLV support for commercial purposes or have already purchased a license for JW FLV Media Player?"
+msgstr ""
+
+#: inc/admin.php:453
+#: inc/admin.php:497
+msgid "Shadowbox JS"
+msgstr ""
+
+#: inc/admin.php:467
+msgid "Settings"
+msgstr ""
+
+#: inc/admin.php:505
+msgid "General"
+msgstr ""
+
+#: inc/admin.php:506
+msgid "These are general options for the Shadowbox Javascript that tell Shadowbox how to run, how to look and what language to use."
+msgstr ""
+
+#: inc/admin.php:510
+msgid "Javascript Library"
+msgstr ""
+
+#: inc/admin.php:514
+msgid "None"
+msgstr ""
+
+#: inc/admin.php:523
+msgid "Default is None."
+msgstr ""
+
+#: inc/admin.php:528
+msgid "Language"
+msgstr ""
+
+#: inc/admin.php:538
+msgid "Default is en."
+msgstr ""
+
+#: inc/admin.php:544
+msgid "Enable Smart Loading"
+msgstr ""
+
+#: inc/admin.php:548
+#: inc/admin.php:579
+#: inc/admin.php:596
+#: inc/admin.php:609
+#: inc/admin.php:636
+#: inc/admin.php:649
+#: inc/admin.php:692
+#: inc/admin.php:705
+#: inc/admin.php:748
+#: inc/admin.php:761
+#: inc/admin.php:774
+#: inc/admin.php:847
+#: inc/admin.php:880
+#: inc/admin.php:893
+#: inc/admin.php:906
+#: inc/admin.php:953
+#: inc/admin.php:966
+#: inc/admin.php:979
+#: inc/admin.php:992
+#: inc/admin.php:1036
+#: inc/admin.php:1047
+msgid "true"
+msgstr ""
+
+#: inc/admin.php:549
+#: inc/admin.php:580
+#: inc/admin.php:597
+#: inc/admin.php:610
+#: inc/admin.php:637
+#: inc/admin.php:650
+#: inc/admin.php:693
+#: inc/admin.php:706
+#: inc/admin.php:749
+#: inc/admin.php:762
+#: inc/admin.php:775
+#: inc/admin.php:848
+#: inc/admin.php:881
+#: inc/admin.php:894
+#: inc/admin.php:907
+#: inc/admin.php:954
+#: inc/admin.php:967
+#: inc/admin.php:980
+#: inc/admin.php:993
+#: inc/admin.php:1035
+#: inc/admin.php:1046
+msgid "false"
+msgstr ""
+
+#: inc/admin.php:552
+msgid "Enabling this will only load Shadowbox and its dependencies when needed based on the content of your posts.\tPlease note that when enabling this Shadowbox will not be loaded if rel=\"shadowbox\" is not found in the content of your post(s).  If you experience problems after enabling this, try disabling. Default is false."
+msgstr ""
+
+#: inc/admin.php:558
+msgid "Players"
+msgstr ""
+
+#: inc/admin.php:570
+msgid "The list of enabled or disabled players. Default is HTML, IFRAME, IMG, QT, SWF and WMP."
+msgstr ""
+
+#: inc/admin.php:575
+msgid "Enable FLV Support"
+msgstr ""
+
+#: inc/admin.php:583
+msgid "By enabling FLV support you are agreeing to the the <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">noncommercial license</a> used by JW FLV Media Player. The JW FLV Media Player is licensed under the terms of the <a href=\"http://creativecommons.org/licenses/by-nc-sa/3.0/\">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>. After enabling FLV support you will need to select FLV from the list of players above. Default is false."
+msgstr ""
+
+#: inc/admin.php:587
+msgid "Advanced Configuration"
+msgstr ""
+
+#: inc/admin.php:592
+msgid "Animate"
+msgstr ""
+
+#: inc/admin.php:600
+msgid "Set this false to disable all fancy animations (except fades). This can improve the overall effect on computers with poor performance. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:605
+msgid "Fade Animations"
+msgstr ""
+
+#: inc/admin.php:613
+msgid "Set this false to disable all fading animations. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:618
+msgid "Animation Sequence"
+msgstr ""
+
+#: inc/admin.php:627
+msgid "The animation sequence to use when resizing Shadowbox. May be either \"wh\" (width first, then height), \"hw\" (height first, then width), or \"sync\" (both simultaneously). Defaults to \"sync\"."
+msgstr ""
+
+#: inc/admin.php:632
+msgid "Modal"
+msgstr ""
+
+#: inc/admin.php:640
+msgid "Set this true to disable listening for mouse clicks on the overlay that will close Shadowbox. Defaults to false."
+msgstr ""
+
+#: inc/admin.php:645
+msgid "Show Overlay"
+msgstr ""
+
+#: inc/admin.php:653
+msgid "Set this false to disable showing the overlay. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:658
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/admin.php:663
+msgid "The color to use for the modal overlay (in hex). Defaults to \"#000\"."
+msgstr ""
+
+#: inc/admin.php:668
+msgid "Overlay Opacity"
+msgstr ""
+
+#: inc/admin.php:673
+msgid "The opacity to use for the modal overlay. Defaults to 0.8."
+msgstr ""
+
+#: inc/admin.php:678
+msgid "Flash Background Color"
+msgstr ""
+
+#: inc/admin.php:683
+msgid "The default background color to use for Flash movies. Defaults to \"#000000\"."
+msgstr ""
+
+#: inc/admin.php:688
+msgid "Auto-Play Movies"
+msgstr ""
+
+#: inc/admin.php:696
+msgid "Set this false to disable automatically playing movies when they are loaded. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:701
+msgid "Show Movie Controls"
+msgstr ""
+
+#: inc/admin.php:709
+msgid "Set this false to disable displaying QuickTime and Windows Media player movie control bars. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:714
+msgid "Slideshow Delay"
+msgstr ""
+
+#: inc/admin.php:719
+msgid "A delay (in seconds) to use for slideshows. If set to anything other than 0, this value determines an interval at which Shadowbox will automatically proceed to the next piece in the gallery. Defaults to 0."
+msgstr ""
+
+#: inc/admin.php:724
+msgid "Resize Duration"
+msgstr ""
+
+#: inc/admin.php:729
+msgid "The duration (in seconds) of the resizing animations. Defaults to 0.55."
+msgstr ""
+
+#: inc/admin.php:734
+msgid "Fade Duration"
+msgstr ""
+
+#: inc/admin.php:739
+msgid "The duration (in seconds) of the fade animations. Defaults to 0.35."
+msgstr ""
+
+#: inc/admin.php:744
+msgid "Display Navigation"
+msgstr ""
+
+#: inc/admin.php:752
+msgid "Set this false to hide the gallery navigation controls. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:757
+msgid "Continuous"
+msgstr ""
+
+#: inc/admin.php:765
+msgid "Set this true to enable \"continuous\" galleries. By default, the galleries will not let a user go before the first image or after the last. Enabling this feature will let the user go directly to the first image in a gallery from the last one by selecting \"Next\". Defaults to false."
+msgstr ""
+
+#: inc/admin.php:770
+msgid "Display Counter"
+msgstr ""
+
+#: inc/admin.php:778
+msgid "Set this false to hide the gallery counter. Counters are never displayed on elements that are not part of a gallery. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:783
+msgid "Counter Type"
+msgstr ""
+
+#: inc/admin.php:787
+msgid "default"
+msgstr ""
+
+#: inc/admin.php:788
+msgid "skip"
+msgstr ""
+
+#: inc/admin.php:791
+msgid "The mode to use for the gallery counter. May be either \"default\" or \"skip\". The default counter is a simple \"1 of 5\" message. The skip counter displays a separate link to each piece in the gallery, enabling quick navigation in large galleries. Defaults to \"default\"."
+msgstr ""
+
+#: inc/admin.php:796
+msgid "Counter Limit"
+msgstr ""
+
+#: inc/admin.php:801
+msgid "Limits the number of counter links that will be displayed in a \"skip\" style counter. If the actual number of gallery elements is greater than this value, the counter will be restrained to the elements immediately preceding and following the current element. Defaults to 10."
+msgstr ""
+
+#: inc/admin.php:806
+msgid "Viewport Padding"
+msgstr ""
+
+#: inc/admin.php:811
+msgid "The amount of padding (in pixels) to maintain around the edge of the browser window. Defaults to 20."
+msgstr ""
+
+#: inc/admin.php:816
+msgid "Handle Oversize"
+msgstr ""
+
+#: inc/admin.php:820
+msgid "none"
+msgstr ""
+
+#: inc/admin.php:821
+msgid "resize"
+msgstr ""
+
+#: inc/admin.php:822
+msgid "drag"
+msgstr ""
+
+#: inc/admin.php:825
+msgid "The mode to use for handling content that is too large for the viewport. May be one of \"none\", \"resize\", or \"drag\" (for images). The \"none\" setting will not alter the image dimensions, though clipping may occur. Setting this to \"resize\" enables on-the-fly resizing of large content. In this mode, the height and width of large, resizable content will be adjusted so that it may still be viewed in its entirety while maintaining its original aspect ratio. The \"drag\" mode will display an oversized image at its original resolution, but will allow the user to drag it within the view to see portions that may be clipped. Defaults to \"resize\"."
+msgstr ""
+
+#: inc/admin.php:830
+msgid "Handle Unsupported"
+msgstr ""
+
+#: inc/admin.php:834
+msgid "link"
+msgstr ""
+
+#: inc/admin.php:835
+msgid "remove"
+msgstr ""
+
+#: inc/admin.php:838
+msgid "The mode to use for handling unsupported media. May be either \"link\" or \"remove\". Media are unsupported when the browser plugin required to display the media properly is not installed. The link option will display a user-friendly error message with a link to a page where the needed plugin can be downloaded. The remove option will simply remove any unsupported gallery elements from the gallery before displaying it. With this option, if the element is not part of a gallery, the link will simply be followed. Defaults to \"link\"."
+msgstr ""
+
+#: inc/admin.php:843
+msgid "Auto Dimensions"
+msgstr ""
+
+#: inc/admin.php:851
+msgid "Set this true to automatically set the initialHeight and initialWidth automatically from the configured object's height and width. Defaults to false."
+msgstr ""
+
+#: inc/admin.php:856
+msgid "Initial Height"
+msgstr ""
+
+#: inc/admin.php:861
+msgid "The height of Shadowbox (in pixels) when it first appears on the screen. Defaults to 160."
+msgstr ""
+
+#: inc/admin.php:866
+msgid "Initial Width"
+msgstr ""
+
+#: inc/admin.php:871
+msgid "The width of Shadowbox (in pixels) when it first appears on the screen. Defaults to 320."
+msgstr ""
+
+#: inc/admin.php:876
+msgid "Enable Keys"
+msgstr ""
+
+#: inc/admin.php:884
+msgid "Set this false to disable keyboard navigation of galleries. Defaults to true."
+msgstr ""
+
+#: inc/admin.php:889
+msgid "Skip Setup"
+msgstr ""
+
+#: inc/admin.php:897
+msgid "Set this true to skip Shadowbox.setup() during Shadowbox.init(). For purposes of this plugin you will have to manually add Shadowbox.setup() to the footer of your theme. Defaults to false."
+msgstr ""
+
+#: inc/admin.php:902
+msgid "Use Sizzle"
+msgstr ""
+
+#: inc/admin.php:910
+msgid "Set this true to enable loading the <a href=\"http://sizzlejs.com/\">Sizzle.js</a> CSS selector library. Note that if you choose not to use Sizzle you may not use CSS selectors to set up your links. In order to use Sizzle.js you must set Skip Setup to true. Defaults to false."
+msgstr ""
+
+#: inc/admin.php:915
+msgid "Flash Params"
+msgstr ""
+
+#: inc/admin.php:920
+msgid "A list of parameters (in a JavaScript object) that will be passed to a flash &lt;object&gt;. For a partial list of available parameters, see <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_12701\">this page</a>. Only one parameter is specified by default: bgcolor. Defaults to {bgcolor:\"#000000\", allowFullScreen:true}."
+msgstr ""
+
+#: inc/admin.php:925
+msgid "Flash Vars"
+msgstr ""
+
+#: inc/admin.php:930
+msgid "A list of variables (in a JavaScript object) that will be passed to a flash movie as <a href=\"http://kb.adobe.com/selfservice/viewContent.do?externalId=tn_16417\">FlashVars</a>. Defaults to {}."
+msgstr ""
+
+#: inc/admin.php:935
+msgid "Flash Version"
+msgstr ""
+
+#: inc/admin.php:940
+msgid "The minimum Flash version required to play a flash movie (as a string). Defaults to \"9.0.0\"."
+msgstr ""
+
+#: inc/admin.php:944
+msgid "Shadowbox Automation"
+msgstr ""
+
+#: inc/admin.php:945
+msgid "These options will give you the capability to have Shadowbox automatically used for all of a certain file type."
+msgstr ""
+
+#: inc/admin.php:949
+msgid "Image Links"
+msgstr ""
+
+#: inc/admin.php:957
+#: inc/admin.php:970
+#: inc/admin.php:983
+#: inc/admin.php:996
+msgid "Default is true."
+msgstr ""
+
+#: inc/admin.php:962
+msgid "Movie Links"
+msgstr ""
+
+#: inc/admin.php:975
+msgid "Music Links"
+msgstr ""
+
+#: inc/admin.php:988
+msgid "YouTube and Google Video Links"
+msgstr ""
+
+#: inc/admin.php:1000
+msgid "Sizes"
+msgstr ""
+
+#: inc/admin.php:1004
+msgid "YouTube / Google Video Width"
+msgstr ""
+
+#: inc/admin.php:1009
+msgid "The width of Shadowbox (in pixels) when displaying YouTube or Google Video. Defaults to 640."
+msgstr ""
+
+#: inc/admin.php:1014
+msgid "YouTube / Google Video Height"
+msgstr ""
+
+#: inc/admin.php:1019
+msgid "The height of Shadowbox (in pixels) when when displaying YouTube of Google Video. Defaults to 385."
+msgstr ""
+
+#: inc/admin.php:1024
+msgid "The settings for this plugin have been deleted. The plugin can now be"
+msgstr ""
+
+#: inc/admin.php:1024
+msgid "Deactivate Shadowbox JS"
+msgstr ""
+
+#: inc/admin.php:1024
+msgid "deactivated"
+msgstr ""
+
+#: inc/admin.php:1024
+msgid "If you want to create the settings with their defaults so this plugin can be used again, set \"Reset to Defaults\" to \"true\" and click \"Save Changes\""
+msgstr ""
+
+#: inc/admin.php:1026
+msgid "Resets"
+msgstr ""
+
+#: inc/admin.php:1027
+msgid "These options will allow you to revert the options back to their defaults or to remove the options from the database for a clean uninstall."
+msgstr ""
+
+#: inc/admin.php:1031
+msgid "Reset to Defaults"
+msgstr ""
+
+#: inc/admin.php:1042
+msgid "Delete Options for a Clean Uninstall"
+msgstr ""
+
+#: inc/admin.php:1053
+msgid "Save Changes"
+msgstr ""
+

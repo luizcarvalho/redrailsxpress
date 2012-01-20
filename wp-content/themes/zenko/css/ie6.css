@@ -1,0 +1,27 @@
+ #footer .widget {
+	float:left;
+	display:inline;
+	 }
+	 
+ #middle, .block, .homepost, #posts, #socialicons {
+ width:660px;
+ }
+ 
+ .block h3 {
+ width:650px;
+ }
+ 
+ .firstn {
+ width:232px;
+ }
+ 
+ .rightn {
+ width:410px;
+ }
+ 
+ 
+ #sidebar_left, #sidebar_right {
+ width:135px;
+ display:inline;
+ }
+ 

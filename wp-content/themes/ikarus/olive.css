@@ -1,0 +1,41 @@
+
+a, a:active, a:focus {
+	color: #95a208;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+
+.button {
+	background: url(images/olive/grad1.gif) repeat-x center #95a208;
+}
+
+.dropcap {
+	color: #95a208;
+}
+
+.highlight {
+	background: #95a208;
+}
+
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus {
+	color: #95a208;
+}
+
+#active_menu {
+	color: #95a208;
+}
+
+
+#topsl a:hover,
+#topsl a:active,
+#topsl a:focus,
+#botsl a:hover,
+#botsl a:active,
+#botsl a:focus {
+	color: #95a208;
+}

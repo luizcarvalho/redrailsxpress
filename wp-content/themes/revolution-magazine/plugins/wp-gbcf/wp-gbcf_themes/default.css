@@ -1,0 +1,178 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FIXED width
+     DEFAULT.CSS made by Mike Cherim - http://green-beast.com 
+    Designed and built to work with the Default WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+  width : 460px;
+}
+
+#gb_form {
+  text-align : left;
+  background-color : #fff;
+}
+
+#gb_form_div a {
+  color : blue;
+}
+
+#gb_form_div a:hover, #gb_form_div a:focus, #gb_form_div a:active {
+  color : #147;
+  text-decoration : underline;
+}
+
+#gb_form fieldset { 
+  border : 0;
+  margin-top : 10px;
+}
+
+#gb_form legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #666;
+}
+
+#gb_form legend {
+  margin-left : -10px;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 1.2em;
+  color : #14568a;
+  margin-left : -10px;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+#gb_form_div .main_formhead {
+  font-size : 1.4em;
+}
+
+#gb_form label { 
+  color : #14568a; 
+  margin-top : 5px;
+}
+
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox { 
+  font : 1em 'lucida grande', verdana, arial, sans-serif; 
+  color : #000; 
+  padding : 4px; 
+  border : 1px solid #6da6d1;
+  background-color : #f9f9f9;
+  line-height : 1.5em;
+  width : 300px;
+}
+
+#gb_form input.short {
+  width : 45px;
+}
+
+#gb_form textarea.textbox {
+  width : 400px;
+}
+
+#gb_form select.med {
+  width : 250px;
+}
+
+#gb_form input.checkbox {
+  padding : 0; 
+}
+
+#gb_form label input.checkbox {
+  margin : 0;
+}
+
+* html input.button { 
+  color : #000;  
+  padding : 4px; 
+  border : 1px solid #6da6d1;
+  background-color : #f9f9f9;
+}
+
+
+/* NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { 
+  color : #444;  
+  padding : 4px; 
+  border : 1px solid #000;
+  background-color : #fff;
+}
+
+input.button {
+  margin-top : 10px;
+}
+
+span.error, span.success, #gb_form_div dt { 
+  color : #cd0000;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, span.success, dl#result_dl_blockq dt {
+  color : green;
+}
+
+small.whythis, small.whythis a { 
+  font-size : .9em; 
+}
+
+#gb_form small.whythis a span { 
+  font-size : .9em;
+  color : #fff;
+  border : 1px solid #fff;
+  padding : 0 3px 0 3px;
+}
+
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { 
+  text-decoration : none;
+  color : #000;
+}
+
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { 
+  border : 1px solid #000;
+  background-color : yellow;
+  color : #000;
+  font-weight : bold;
+}
+
+p.creditline small { 
+  display : block;
+  text-align : right;
+  margin : 5px 0;
+  font-size : .7em;
+  letter-spacing : .0001em;
+  color : #666;
+}
+
+/* NOTE: .abbr class is for IE */
+.abbr { 
+  cursor : help; 
+  border-bottom : 1px dashed #999;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #14568a;
+}
+
+/* End DEFAULT CSS */

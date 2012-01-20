@@ -1,0 +1,195 @@
+/**
+* Some Default and WP required styles.
+-------------------------------------------------------------- */
+
+p {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    overflow: hidden;
+    padding-left: 9px;
+    font-style: italic;
+    color: #666;
+    border-left: 3px solid #CADAE7;
+}
+
+img.wp-smiley {
+    max-height: 12px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.wp-caption {
+    background: #eee;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding-top: 4px;
+    margin: 10px;
+    /* optional rounded corners for browsers that support it */
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.wp-caption img {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    padding: 0 4px 5px;
+    margin: 0;
+}
+
+/**
+* Add padding to images in the posts
+----------------------------*/
+
+.post img.alignleft {
+    margin: 0 10px 10px 0;
+}
+
+.post img.alignright {
+    margin: 0 0 10px 10px;
+}
+
+.post img.aligncenter {
+    margin-bottom: 10px;
+}
+
+
+/**
+* Wp Calendar
+----------------------------*/
+
+#wp-calendar {
+    empty-cells: show;
+    font-family: Arial, Helvetica, Sans-serif;
+    margin: 0;
+    font-weight: normal;
+    width: 100%;
+    border-spacing: 1px;
+    border-collapse: separate;
+}
+
+#wp-calendar caption {
+    padding: 4px 0;
+    text-transform: uppercase;  
+    margin: 2px 0 2px 0;
+    text-align: left;
+    background: none;
+}
+
+#wp-calendar th {
+    font-style: normal;
+    text-transform: capitalize;
+    background: none;
+}
+
+#wp-calendar td {
+    font-family: Arial, Helvetica, Sans-serif;
+    letter-spacing: normal;
+    padding: 4px 0;
+    text-align: center;
+    background: none;
+}
+
+/**
+* General Menu Styles 
+----------------------------*/
+
+.menus, .menus * {
+    margin:	0;
+    padding: 0;
+    list-style:	none;
+    list-style-type: none;
+    line-height: 1.0;
+}
+
+.menus ul {
+    position: absolute;
+    top: -999em;
+    width: 100%;
+}
+
+.menus ul li {
+    width: 100%;
+}
+
+.menus li:hover {
+    visibility:	inherit;
+}
+
+.menus li {
+    float: left;
+    position: relative;
+}
+
+.menus a {
+    display: block;
+    position: relative;
+}
+
+.menus li:hover ul,
+.menus li.sfHover ul {
+    left: 0;
+    top: 100%; /* match top ul list item height */
+    z-index: 99;
+}
+
+.menus li:hover li ul,
+.menus li.sfHover li ul {
+    top: -999em;
+}
+
+.menus li li:hover ul,
+.menus li li.sfHover ul {
+    left: 100%; /* match ul width */
+    top: 0;
+}
+
+.menus li li:hover li ul,
+.menus li li.sfHover li ul {
+    top: -999em;
+}
+
+.menus li li li:hover ul,
+.menus li li li.sfHover ul {
+    left: 100%; /* match ul width */
+    top: 0;
+}
+
+/* Shadows */
+
+.sf-shadow ul {
+    padding: 0 8px 9px 0;
+    -moz-border-radius-bottomleft: 17px;
+    -moz-border-radius-topright: 17px;
+    -webkit-border-top-right-radius: 17px;
+    -webkit-border-bottom-left-radius: 17px;
+}
+
+.menus .sf-shadow ul.sf-shadow-off {
+    background: transparent;
+}

@@ -1,0 +1,78 @@
+<script type="text/javascript">
+
+var formDisabled=false;
+var t = new Image();
+t.src = "./../wp-content/plugins/image_upload/spinner.gif";
+
+function addUploadElement()
+{	
+	if ( formDisabled===true )
+	{
+		return 0;
+	}
+	
+	var file = document.createElement("input");
+	var obj = document.getElementById("fileList");
+	
+	file.setAttribute("type","file"); //give it it's type
+	file.setAttribute("name","uploadFiles[]"); //give it it's name
+	file.style.display="block";//essentially give it it's own line
+	
+	obj.appendChild(file);
+}
+
+function addUploadURLElement()
+{
+	if ( formDisabled===true )
+	{
+		return 0;
+	}
+	
+	var file = document.createElement("input");
+	var obj = document.getElementById("urlList");
+	
+	file.setAttribute("type","text"); //give it it's type
+	file.setAttribute("name","urlFiles[]"); //give it it's name
+	file.setAttribute("value","http://");
+	file.style.display="block";//essentially give it it's own line
+	
+	obj.appendChild(file);
+}
+
+//function displays the spinner
+function displaySpinner()
+{
+	var img = document.createElement("img");
+	img.setAttribute("src","./../wp-content/plugins/image_upload/spinner.gif");
+	img.setAttribute("height","32");
+	img.setAttribute("width","32");
+	
+	var txt = document.createTextNode("Uploading Your Images... Please Wait");
+	
+	document.getElementById("spinner").appendChild(img);
+	document.getElementById("spinner").appendChild(txt);
+}
+
+function uploadImages( obj )
+{
+	//var elems = document.uploadForm.elements.length;
+	formDisabled=true;
+	
+	/*SADLY this feature didn't work
+		disabled the form =\
+	for ( var i = 0; i < elems; i++ )
+	{
+		var o = document.forms["uploadForm"].elements[i]; //get the element in a var
+		if (o.type=="file") //disable only the files
+		{
+			//o.disabled=true;
+		}
+	}*/
+	
+	displaySpinner();
+	obj.style.display="none";
+	
+	document.uploadForm.submit();
+}
+
+</script>

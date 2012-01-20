@@ -1,0 +1,221 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FIXED width
+     BLIX.CSS made by Mike Jolley - http://www.blue-anvil.com 
+     Designed and built to work with the Blix WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+}
+
+#gb_form {
+  text-align : left;
+}
+
+#gb_form_div a {
+  color : #6c8c37;
+  text-decoration : none;
+}
+
+#gb_form_div a:hover {
+  color : #1ba6b2;
+  text-decoration : none;
+}
+
+#gb_form fieldset { 
+  border : 0;
+  margin : 3px 0 0 0;
+  padding : 0;
+}
+
+#gb_form fieldset fieldset { 
+  border-top : 1.8em solid #a3c159;
+  border-bottom : 1px solid #f0f0f0;
+  background-color : #fafaf0;
+  margin-bottom : 15px; font-size:0.9em;
+  padding : 0 1em 1em 1em;
+}
+
+#gb_form legend, #gb_form dt { 
+  font-weight : bold; 
+  color : #fff;
+  background-color : #a3c159;
+  border:none;
+  font-family : georgia, serif;
+  height : 1.8em;
+  padding : 0 8px 0 8px;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 1em;
+  color : #333;
+  padding : 0 0 5px 0;
+  margin : 0;
+  height : auto;
+  background : none;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+#gb_form_div .formhead small a {
+  font-size : .7em;
+  background-image : none;
+  display : inline;
+  padding : 0;
+  margin : 0;
+}
+
+#gb_form_div .main_formhead, #gb_form_div .formhead {
+  font-size : 1.3em;
+  color : #009193;
+  font-weight : bold;
+  padding : 0 0 3px 0;
+  margin : 0;
+}
+
+#gb_form label { 
+  color : #414141; 
+  margin-top : 5px;
+  margin-left : 0;
+  width : 525px;
+  clear : both;
+}
+
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox { 
+  font-size : 1em; 
+  padding : 2px; 
+  width : 250px;
+  clear : both;
+}
+
+#gb_form input.button:hover, #gb_form input.button:focus, 
+#gb_form input.button.hover, #gb_form input.button.focus {
+  background-color : #6c8c37;
+  color : #fff;
+}
+
+/* NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { 
+  color : #101010;  
+  background-color : #f0f9f9;
+  cursor : text;
+}
+
+#gb_form input.short {
+  width : 100px;
+}
+
+#gb_form textarea.textbox {
+  width : 400px;
+  height : 160px;
+  line-height : 1.5em;
+}
+
+#gb_form select.med {
+  width : 250px;
+}
+
+#gb_form input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #669900;
+  border : 0;
+  padding : 2px; 
+  margin : 0;
+  width : 10px;
+  height : 10px;
+  clear : none;
+}
+
+#gb_form input.button {
+  margin-top : 10px;
+  padding : 4px 0 4px 0 !important; 
+  width : 7em;
+  float : right;
+  cursor : pointer;
+  color : #333;
+  text-align : center;
+  clear : none;
+}
+
+span.error, span.success, #gb_form_div dt { 
+  color : #fec42d;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #9bbb38;
+}
+
+#gb_form small.whythis, #gb_form small.whythis a { 
+  font-size : .9em; 
+  text-decoration : none;
+  border : 0;
+  color : #6C8C37;
+  clear : none;
+  width : 100px;
+}
+
+#gb_form small.whythis a span {
+  color : #fff;
+  font-family : arial, sans-serif;
+  padding : 1px 4px 1px 4px;
+  clear : none;
+}
+
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { 
+  text-decoration : none;
+  color : #1BA6B2;
+}
+
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { 
+  border : 0;
+  color : #fff;
+  font-style : normal; 
+  padding-left : 54px;
+  background : #fec42d url(wp-gbcf_images/blix_arrow.gif) no-repeat bottom left;
+}
+
+#gb_form p.creditline small {
+  font-family : arial, sans-serif;
+  clear : both; 
+  display : block;
+  text-align : right;
+  margin : 0;
+  padding : 25px 0 15px 0;
+  font-size : .8em;
+  letter-spacing : .0001em;
+  color : #aaa;
+}
+
+/* NOTE: .abbr class is for IE */
+.abbr { 
+  cursor : help; 
+  border-bottom : 1px dashed #999;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #333;
+}
+
+/* End BLIX CSS */

@@ -1,0 +1,130 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP SOME width
+       CUSTOM.CSS made by Form User - http://yourdomain.com 
+      Designed and built to work with the Your WordPress theme
+================================================================== */
+/*
+  In creating the other themes I found that this is what I needed
+  to make it come together without WP theme conflict. Have fun!
+*/
+
+/* form/results div */
+#gb_form_div { }
+
+/* the form itself */
+#gb_form { }
+
+/* form links */
+#gb_form_div a { }
+
+/* link states */
+#gb_form_div a:hover, #gb_form_div a:focus, #gb_form_div a:active { }
+
+/* all fieldsets */
+#gb_form fieldset { }
+
+/* to redefine outer fieldset */
+#gb_form fieldset#formwrap { }
+
+/* form head if needed */
+.formhead { }
+
+/* main formhead, of course */
+.main_formhead { }
+
+/* form leagend and result dt */
+#gb_form legend, #gb_form dt { }
+
+/* define more for form legend */
+#gb_form legend { }
+
+/* redefine main legend props */
+#gb_form legend#mainlegend { }
+
+/* privacy link, reset link, etc */
+#gb_form legend#mainlegend small, #gb_form_div .formhead small { }
+
+/* hello, it's for the form labels */
+#gb_form label { }
+
+/* define all inputs, except button */
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox { }
+
+/* redefine for short input only */
+#gb_form input.short { }
+
+/* spec for textarea only */
+#gb_form textarea.textbox { }
+
+/* spec for select only */
+#gb_form select.med { }
+
+/* spec for checkbox only */
+#gb_form input.checkbox { }
+
+/* for checkbox label only */
+#gb_form label input.checkbox { }
+
+/* the make button stable in IE6 it must be defined */
+* html input.button { }
+
+/* All hover/focus stuff - NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { }
+
+/* redefine for short input only, if wanted */
+#gb_form input.button { }
+
+/ success span, error span, form div dt (redefine) */
+span.error, span.success, #gb_form_div dt { }
+
+/* form div dt (redefine more), plus dl */ 
+#gb_form_div dt, #gb_form_div dl { }
+
+/* results stuff */
+#gb_form_div dt small, span.success, dl#result_dl_blockq dt { } 
+
+/* whyis link */
+small.whythis { }
+
+/* the answer */
+#gb_form small.whythis a span { }
+
+/* whyis on hover/focus */
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { }
+
+/* the answer on hover/focus */
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { }
+
+/* credit line */
+p.creditline small { }
+
+/* for abbr, NOTE: added span .abbr class is for IE, so use for all */
+.abbr { }
+
+/* results blackquote */
+dl#result_dl_blockq blockquote { }
+
+/* results blackquote p */
+dl#result_dl_blockq blockquote p { }
+
+/* results blackquote p cite */
+dl#result_dl_blockq blockquote p cite { }
+
+/* results ul li spans (name, email, etc) */
+#gb_form_div span.items { }
+
+/* error message links */
+#gb_form_div p a { }
+
+/* error message link states */
+#gb_form_div p a:hover, #gb_form_div p a:focus, #gb_form_div p a:active { }
+
+
+/* End CUSTOM CSS */

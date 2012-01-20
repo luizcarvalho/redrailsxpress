@@ -1,0 +1,395 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:12
+#: search.php:66
+#@ wpzoom
+msgid "Nothing Found"
+msgstr ""
+
+#: 404.php:14
+#@ wpzoom
+msgid "We're sorry, but the page you're looking for, doesn't exist or has been removed."
+msgstr ""
+
+#: archive.php:15
+#@ wpzoom
+msgid "Category:"
+msgstr ""
+
+#: archive.php:16
+#@ wpzoom
+msgid "Post Tagged with:"
+msgstr ""
+
+#: archive.php:17
+#: archive.php:18
+#: archive.php:19
+#@ wpzoom
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:20
+#, php-format
+#@ wpzoom
+msgid "Articles By: %s"
+msgstr ""
+
+#: archive.php:21
+#: template-archives.php:11
+#@ wpzoom
+msgid "Archives"
+msgstr ""
+
+#: archive.php:45
+#: index.php:56
+#: search.php:36
+#@ wpzoom
+msgid "Published by"
+msgstr ""
+
+#: archive.php:45
+#: index.php:56
+#: search.php:36
+#: wpzoom-homecats.php:91
+#: wpzoom-homecats.php:169
+#: wpzoom-homecats.php:249
+#: wpzoom-homecats.php:328
+#: wpzoom-homecats.php:407
+#@ wpzoom
+msgid "on"
+msgstr ""
+
+#: archive.php:58
+#: index.php:69
+#: search.php:51
+#: template-archives.php:66
+#@ wpzoom
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: archive.php:59
+#: index.php:70
+#: search.php:52
+#: template-archives.php:67
+#@ wpzoom
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: comments.php:10
+#@ wpzoom
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:21
+#@ wpzoom
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:21
+#@ wpzoom
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:21
+#@ wpzoom
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:25
+#@ wpzoom
+msgid "Previous Comments"
+msgstr ""
+
+#: comments.php:26
+#@ wpzoom
+msgid "Next Comments"
+msgstr ""
+
+#: comments.php:35
+#@ wpzoom
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:46
+#@ wpzoom
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:46
+#@ wpzoom
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:53
+#@ wpzoom
+msgid "You must be"
+msgstr ""
+
+#: comments.php:53
+#@ wpzoom
+msgid "logged in"
+msgstr ""
+
+#: comments.php:53
+#@ wpzoom
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:60
+#@ wpzoom
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:60
+#@ wpzoom
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:60
+#@ wpzoom
+msgid "Logout"
+msgstr ""
+
+#: comments.php:65
+#@ wpzoom
+msgid "Name"
+msgstr ""
+
+#: comments.php:65
+#: comments.php:68
+#@ wpzoom
+msgid "required"
+msgstr ""
+
+#: comments.php:68
+#@ wpzoom
+msgid "Email (will not be published)"
+msgstr ""
+
+#: comments.php:71
+#@ wpzoom
+msgid "Website"
+msgstr ""
+
+#: comments.php:79
+#@ wpzoom
+msgid "Add Reply"
+msgstr ""
+
+#: comments.php:90
+#@ wpzoom
+msgid "Trackbacks"
+msgstr ""
+
+#: footer.php:24
+#@ wpzoom
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:24
+#@ wpzoom
+msgid "All Rights Reserved."
+msgstr ""
+
+#: footer.php:25
+#@ wpzoom
+msgid "Designed by"
+msgstr ""
+
+#: functions/wpzoom-core.php:51
+#@ wpzoom
+msgid "Main Menu"
+msgstr ""
+
+#: functions/wpzoom-functions.php:259
+#: functions/wpzoom-functions.php:271
+#: searchform.php:3
+#@ default
+#@ wpzoom
+msgid "Search"
+msgstr ""
+
+#: functions/wpzoom-functions.php:442
+#: functions/wpzoom-functions.php:735
+#@ default
+msgid "Title:"
+msgstr ""
+
+#: functions/wpzoom-functions.php:443
+#@ default
+msgid "Flickr RSS URL or Screen name:"
+msgstr ""
+
+#: functions/wpzoom-functions.php:444
+#@ default
+msgid "How many items?"
+msgstr ""
+
+#: functions/wpzoom-functions.php:445
+#@ default
+msgid "More link anchor text:"
+msgstr ""
+
+#: functions/wpzoom-functions.php:446
+#@ default
+msgid "Target: _blank"
+msgstr ""
+
+#: functions/wpzoom-functions.php:491
+#@ default
+msgid "Anonymous"
+msgstr ""
+
+#: functions/wpzoom-functions.php:590
+#@ wpzoom
+msgid "in"
+msgstr ""
+
+#: functions/wpzoom-functions.php:590
+#@ wpzoom
+msgid "at"
+msgstr ""
+
+#: functions/wpzoom-functions.php:701
+#@ default
+msgid "No commented posts yet"
+msgstr ""
+
+#: functions/wpzoom-functions.php:715
+#@ default
+msgid "Popular Posts"
+msgstr ""
+
+#: functions/wpzoom-functions.php:737
+#@ default
+msgid "Since:"
+msgstr ""
+
+#: functions/wpzoom-functions.php:740
+#: functions/wpzoom-functions.php:742
+#@ default
+msgid "Forever"
+msgstr ""
+
+#: functions/wpzoom-functions.php:745
+#: functions/wpzoom-functions.php:747
+#@ default
+msgid "This Year"
+msgstr ""
+
+#: functions/wpzoom-functions.php:750
+#: functions/wpzoom-functions.php:752
+#@ default
+msgid "This Month"
+msgstr ""
+
+#: functions/wpzoom-functions.php:756
+#@ default
+msgid "Posts To Display:"
+msgstr ""
+
+#: index.php:34
+#@ wpzoom
+msgid "Recent Articles"
+msgstr ""
+
+#: page.php:14
+#: single.php:16
+#: template-fullwidth.php:15
+#@ wpzoom
+msgid "Edit"
+msgstr ""
+
+#: page.php:19
+#@ wpzoom
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: search.php:14
+#: search.php:64
+#@ wpzoom
+msgid "Search Results for:"
+msgstr ""
+
+#: searchform.php:2
+#@ wpzoom
+msgid "search..."
+msgstr ""
+
+#: single.php:22
+#@ wpzoom
+msgid "<span class=\"tag-links\">Tags: "
+msgstr ""
+
+#: single.php:28
+#@ wpzoom
+msgid "Tweet This"
+msgstr ""
+
+#: single.php:29
+#@ wpzoom
+msgid "Share on Facebook"
+msgstr ""
+
+#: single.php:30
+#@ wpzoom
+msgid "Digg This"
+msgstr ""
+
+#: single.php:31
+#@ wpzoom
+msgid "Save to delicious"
+msgstr ""
+
+#: single.php:32
+#@ wpzoom
+msgid "Stumble it"
+msgstr ""
+
+#: single.php:33
+#@ wpzoom
+msgid "RSS Feed"
+msgstr ""
+
+#: single.php:46
+#: template-fullwidth.php:20
+#@ wpzoom
+msgid "Sorry, no posts matched your criteria"
+msgstr ""
+
+#: wpzoom-featured.php:11
+#@ wpzoom
+msgid "Featured News"
+msgstr ""
+
+#: wpzoom-featured.php:67
+#: wpzoom-featured.php:108
+#: wpzoom-featured.php:148
+#: wpzoom-homecats.php:91
+#: wpzoom-homecats.php:169
+#: wpzoom-homecats.php:249
+#: wpzoom-homecats.php:328
+#: wpzoom-homecats.php:407
+#@ wpzoom
+msgid "by"
+msgstr ""
+

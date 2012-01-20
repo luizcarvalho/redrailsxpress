@@ -1,0 +1,227 @@
+/* ==================================================================
+    Secure and Accessible PHP Contact Form v.2.0WP FIXED width
+ GREEN-MARINEE.CSS made by Mike Jolley - http://www.blue-anvil.com 
+ Designed and built to work with the Green Marinee WordPress theme
+================================================================== */
+
+#gb_form_div { 
+  text-align : left;
+}
+
+#gb_form {
+  text-align : left;
+}
+
+#gb_form_div a {
+  color : #78a515;
+  text-decoration : none;
+}
+
+#gb_form_div form{
+  margin : 0 !important;
+}
+
+#gb_form_div a:hover {
+  color : #fff;
+  background-color : 78a515;
+}
+
+#gb_form fieldset { 
+  border : 0;
+  margin : 8px 0 0 0;
+  padding : 8px 0 0 0 
+}
+
+#gb_form fieldset fieldset { 
+  border : 3px solid #f5f5f5;
+  margin : 0 0 8px 0;
+  padding : 2px 32px 32px 32px;
+}
+
+#gb_form legend, #gb_form dt { 
+  font-size : 1.4em;
+  color : #3f3f3f;
+  border : none;
+  margin : 0 0 0 -9px;
+}
+
+#gb_form legend#mainlegend { 
+  font-size : 1.4em;
+  color : #3f3f3f;
+  margin : 0;
+}
+
+#gb_form legend#mainlegend small { 
+  font-size : .7em;
+  text-transform : uppercase;
+}
+
+#gb_form_div .formhead small a {
+  font-size : .7em;
+  background-image : none;
+  display : inline;
+  padding : 0;
+  margin : 0;
+}
+
+#gb_form_div .main_formhead, #gb_form_div .formhead {
+  font-size : 1.8em;
+  color : #7da721;
+  text-transform : lowercase;
+  padding : 0 0 3px 0;
+  margin : 0 !important;
+}
+
+#gb_form label { 
+  color : #999999; 
+  font-size:0.9em;
+  text-transform : lowercase;
+  margin-top : 5px;
+  margin-left : 0;
+}
+
+#gb_form input.short, #gb_form input.med, #gb_form select.med, #gb_form textarea.textbox {
+  font-size : 1.1em;
+  width : 300px;
+  background-color : #fff;
+  border : 1px solid #ace149;
+  color : #7da721;
+}
+
+#gb_form input.button:hover, #gb_form input.button:focus, 
+#gb_form input.button.hover, #gb_form input.button.focus {
+  background-color : #fff;
+  color : #7e7e7e;
+  border-color : #bebebe;
+}
+
+/* NOTE: .hover and .focus classes IE JS */
+#gb_form input.short:hover, #gb_form input.short:hover, 
+#gb_form input.med:hover, #gb_form input.med:focus, 
+#gb_form select.med:hover, #gb_form select.med:focus, 
+#gb_form textarea.textbox:hover, #gb_form textarea.textbox:focus, 
+#gb_form input.short.hover, #gb_form input.short.focus,
+#gb_form input.med.hover, #gb_form input.med.focus,  
+#gb_form select.med.hover, #gb_form select.med.focus, 
+#gb_form textarea.textbox.hover, #gb_form textarea.textbox.focus { 
+  border-color : #bfbfbf;
+  color : #949494;
+  cursor : text;
+}
+
+#gb_form input.short {
+  width : 50px;
+}
+
+#gb_form textarea.textbox {
+  width : 400px;
+  height : 160px;
+  line-height : 1.5em;
+}
+
+#gb_form select.med {
+  width : 300px;	
+  padding : 2px;
+}
+
+#gb_form input.checkbox {
+  cursor : default;
+  background : transparent;
+  color : #669900;
+  border : 0;
+  padding : 2px; 
+  margin : 0;
+  width : 10px;
+  height : 10px;
+}
+
+#gb_form input.button {
+  margin : 15px 0 15px 0;
+  padding : 4px 0 4px 0 !important;
+  width : 11em;
+  float : right;
+  cursor : pointer;
+  color : #5e820a;
+  text-transform : uppercase;
+  font-size : 0.7em;
+  letter-spacing : 0.1em;
+  background : #c2e76b;
+  text-align : center;
+  border : 3px double #8dc112;
+}
+
+#gb_form p {
+  margin : 0;
+  padding : 0;
+}
+
+span.error, span.success, #gb_form_div dt { 
+  color : #000;  
+  font-weight : bold; 
+}
+
+#gb_form_div dt small, #gb_form_div .formhead span.success, span.success, dl#result_dl_blockq dt {
+  color : #29303b;
+}
+
+#gb_form small.whythis, #gb_form small.whythis a { 
+  font-size : .9em; 
+  text-decoration : none;
+  border : 0;
+  color : #78a515;
+}
+
+#gb_form small.whythis a span {
+  color : #fff;
+  font-family : arial, sans-serif;
+  padding : 1px 4px 1px 4px;
+}
+
+#gb_form small.whythis a:hover, #gb_form small.whythis a:focus, #gb_form small.whythis a:active { 
+  color : #78a515;
+  background : none;
+}
+
+#gb_form small.whythis a:hover span, #gb_form small.whythis a:focus span, #gb_form small.whythis a:active span { 
+  color : #fff;
+  border : 0 !important;
+  font-style : normal; 
+  background-color : #78a515;
+  margin-left : 4px;
+  text-decoration : none !important;
+}
+
+#gb_form p.creditline small {
+  font-family : arial, sans-serif;
+  display : block;
+  text-align : right;
+  margin: 0 0 0 0;
+  padding : 0 0 0 0;
+  font-size : .7em;
+  letter-spacing : .0001em;
+  color : #777777;
+  text-transform : uppercase;
+  clear : both;
+}
+
+/* NOTE: .abbr class is for IE */
+.abbr { 
+  cursor : help; 
+  border-bottom : 1px dashed #999;
+}
+
+dl#result_dl_blockq blockquote {
+  margin-left : 0;
+}
+
+dl#result_dl_blockq blockquote p cite {
+  display : block;
+  text-align : right;
+}
+
+#gb_form_div span.items {
+  font-weight : bold;
+  color : #333;
+}
+
+/* End GREEN-MARINEE CSS */

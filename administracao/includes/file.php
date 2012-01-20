@@ -860,6 +860,7 @@ function WP_Filesystem( $args = false, $context = false ) {
  * @param string $context Full path to the directory that is tested for being writable.
  * @return string The transport to use, see description for valid return values.
  */
+
 function get_filesystem_method($args = array(), $context = false) {
 	$method = defined('FS_METHOD') ? FS_METHOD : false; //Please ensure that this is either 'direct', 'ssh', 'ftpext' or 'ftpsockets'
 
@@ -882,6 +883,8 @@ function get_filesystem_method($args = array(), $context = false) {
 	if ( ! $method && ( extension_loaded('sockets') || function_exists('fsockopen') ) ) $method = 'ftpsockets'; //Sockets: Socket extension; PHP Mode: FSockopen / fwrite / fread
 	return apply_filters('filesystem_method', $method, $args);
 }
+
+
 
 /**
  * Displays a form to the user to request for their FTP/SSH details in order to  connect to the filesystem.
